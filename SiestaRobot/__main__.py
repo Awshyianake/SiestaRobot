@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-SIESTA_IMG = "https://telegra.ph/file/c880f57deef159e1e9b6c.jpg"
+SIESTA_IMG = "https://telegra.ph/file/7769ebc8f6f4e14084cf2.jpg"
 
 DONATE_STRING = """Thank you for those of you who have donated, may God reward you twice as much for what you give 🤲"""
 IMPORTED = {}
@@ -406,7 +406,7 @@ def siesta_about_callback(update, context):
                         ],
                         [
                             InlineKeyboardButton(text="👑 ᴏᴡɴᴇʀ", url="t.me/ShinzoShitsuren"),
-                            InlineKeyboardButton(text=gs(chat.id, "ᴅᴏɴᴀᴛᴇ 🎁"), callback_data="siesta_"),
+                            InlineKeyboardButton(text=gs(chat.id, "about_button"), callback_data="siesta_"),
                         ],
                         [
                             InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="source_"),
