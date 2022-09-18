@@ -380,8 +380,8 @@ def siesta_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                    InlineKeyboardButton(text="👨‍💻 sʜɪɴᴢō", url="https://t.me/ShinzoShitsuren"),
-                    InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ 📖", url="https://t.me/Shinzo_Shitsuren"),
+                    InlineKeyboardButton(text="🇮🇩 Indonesia", callback_data="languages_id"),
+                    InlineKeyboardButton(text="🇱🇷 English", callback_data="languages_en"),
                     ],
                     [
                     InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_back"),
