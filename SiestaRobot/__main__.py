@@ -209,7 +209,7 @@ def start(update: Update, context: CallbackContext):
                                 text=gs(chat.id, "add_bot_to_group_button"), url="t.me/FutanokiRobot?startgroup=new"),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "👑 ᴏᴡɴᴇʀ"), url="t.me/ShinzoShitsuren"),
+                            InlineKeyboardButton(text="👑 ᴏᴡɴᴇʀ", url="t.me/ShinzoShitsuren"),
                             InlineKeyboardButton(text=gs(chat.id, "about_button"), callback_data="siesta_"),
                         ],
                         [
@@ -405,7 +405,7 @@ def siesta_about_callback(update, context):
                                 text=gs(chat.id, "add_bot_to_group_button"), url="t.me/FutanokiRobot?startgroup=new"),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "👑 ᴏᴡɴᴇʀ"), url="t.me/ShinzoShitsuren"),
+                            InlineKeyboardButton(text="👑 ᴏᴡɴᴇʀ", url="t.me/ShinzoShitsuren"),
                             InlineKeyboardButton(text=gs(chat.id, "ᴅᴏɴᴀᴛᴇ 🎁"), callback_data="siesta_"),
                         ],
                         [
