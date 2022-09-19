@@ -10,7 +10,7 @@ set_chat_lang: "Great, using {} Language it is from now on!"
 # PM Text
 pm_start_text: |
   *ʜᴇʟʟᴏ {}, ɪ'ᴍ ꜰᴜᴛᴧɴōᴋɪ !*
-  *✪ ɪ'ᴍ ᴀɴɪᴍᴇ-ᴛʜᴇᴍᴇ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʀᴏʙᴏᴛ*​ [✨](https://telegra.ph//file/ae55c07c1e92161158d55.jpg)
+  *✪ ɪ'ᴍ ᴀɴ ᴀɴɪᴍᴇ-ᴛʜᴇᴍᴇ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʀᴏʙᴏᴛ*​ [](https://telegra.ph//file/ae55c07c1e92161158d55.jpg)
   ────────────────────
   ⊳ *ᴜᴘᴛɪᴍᴇ* -≽ {}
   ⊳ {} *ᴜꜱᴇʀ, ᴀᴄʀᴏꜱꜱ* {} *ᴄʜᴀᴛꜱ.*
@@ -249,7 +249,7 @@ blacklist_help: |
 chatbot_help: |
     ──「 Chatbot AI 」──
 
-    Niskala AI is the only ai system which can detect & reply upto 200 language's
+    Futanoki AI is the only ai system which can detect & reply upto 200 language's
 
     ❂ /chatbot [ON/OFF]: Enables and disables AI Chat mode.
     ❂ /chatbot EN : Enables English only chatbot.
@@ -654,9 +654,9 @@ search_help: |
     ❂ /github <username>*:* Get information about a GitHub user.
     ❂ /country <country name>*:* Gathering info about given country
     ❂ /imdb <Movie name>*:* Get full info about a movie with imdb.com
-    ❂ Niskala <query>*:* Niskala answers the query
+    ❂ Futanoki <query>*:* Niskala answers the query
 
-    💡 Ex : `Niskala where is Java?`
+    💡 Ex : `Futanoki where is Japan?`
 stickers_help: |
     ──「 Stickers 」──
 
@@ -795,7 +795,7 @@ feds_help: |
 lang_help: |
     ──「 Language 」──
 
-    Not every group speaks fluent english; some groups would rather have Niskala respond in their own language.
+    Not every group speaks fluent english; some groups would rather have Futanoki respond in their own language.
 
     This is where translations come in; you can change the language of most replies to be in the language of your choice!
 
