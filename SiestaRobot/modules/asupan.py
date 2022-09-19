@@ -184,6 +184,6 @@ async def _(event):
 def helps(chat):
     return gs(chat, "asupan_help")
 
-__mod_name__ = "Asᴜᴘᴀɴ"
+__mod_name__ = "ᴀsᴜᴘᴀɴ"
 
 
