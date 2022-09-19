@@ -120,4 +120,4 @@ file_helpo = file_help.replace("_", " ")
 def helps(chat):
     return gs(chat, "telegraph_help")
 
-__mod_name__ = "Uᴘʟᴏᴀᴅᴇʀ"
+__mod_name__ = "ᴜᴘʟᴏᴀᴅᴇʀ"
