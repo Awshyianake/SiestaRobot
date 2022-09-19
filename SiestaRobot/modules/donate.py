@@ -10,6 +10,6 @@ PHOTO = "https://telegra.ph//file/ae55c07c1e92161158d55.jpg"
 
 @register(pattern=("/donate"))
 async def awake(event):
-  TEXT = f"ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴅᴏɴᴀᴛᴇ ᴛᴏ ɴɪsᴋᴀʟᴀ ʀᴏʙᴏᴛ ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ʜᴇʟᴘ sᴜᴘᴘᴏʀᴛ ᴜs sᴏ ᴛʜᴀᴛ ʙᴏᴛs sᴛᴀʏ ᴀᴄᴛɪᴠᴇ ᴀɴᴅ ʜᴇʟᴘ ʏᴏᴜʀ ᴀᴄᴛɪᴠɪᴛɪᴇs ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ 😉"
+  TEXT = f"ʙᴀɢɪ ᴋᴀᴍᴜ ʏᴀɴɢ ɪɴɢɪɴ ʙᴇʀᴅᴏɴᴀsɪ ᴜɴᴛᴜᴋ ꜰᴜᴛᴧɴōᴋɪ ʀᴏʙᴏᴛ, sɪʟᴀʜᴋᴀɴ ᴋʟɪᴋ ᴅɪʙᴀᴡᴀʜ ɪɴɪ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴀɴᴛᴜ ᴍᴇɴsᴜᴘᴘᴏʀᴛ ᴀɢᴀʀ ʙᴏᴛ ᴛᴇᴛᴀᴘ sᴇʜᴀᴛ ᴋᴜᴀᴛ ᴛᴀʜᴀɴ ʟᴀᴍᴀ ᴅᴀɴ ᴍᴇᴍʙᴀɴᴛᴜ ᴍᴇɴᴇᴍᴀɴɪ ᴋᴀᴍᴜ ʙᴇʀᴀᴋᴛɪꜰɪᴛᴀs ᴅɪ ᴛᴇʟᴇɢʀᴀᴍ 😉"
   BUTTON = [[Button.url("ᴅᴏɴᴀᴛᴇ 🎁", "https://t.me/ShinzoShitsuren")]]
   await tbot.send_file(event.chat_id, PHOTO, caption=TEXT,  buttons=BUTTON)
