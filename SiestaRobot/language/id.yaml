@@ -23,17 +23,11 @@ group_start_text: |
   *Mulai aktif sejak :* `{}`
 
 pm_about_text: |
-  ✺ Halo saya *Niskala*, bot manajemen grup yang kuat yang dibuat untuk membantu kamu mengelola grup dengan mudah. ✺
+  *ʙᴀɢɪ ʏᴀɴɢ ɪɴɢɪɴ ʙᴇʀᴅᴏɴᴀsɪ sᴇʙᴀɢᴀɪ ᴜᴄᴀᴘᴀɴ ᴛᴇʀɪᴍᴀ ᴋᴀsɪʜ ᴋᴇᴘᴀᴅᴀ ᴘᴇɴᴄɪᴘᴛᴀ ꜰᴜᴛᴧɴōᴋɪ.*
 
-  ✪ Saya dapat membatasi pengguna.
-  ✪ Saya dapat menyapa pengguna dengan pesan selamat datang yang dapat disesuaikan dan bahkan menetapkan aturan grup.
-  ✪ Saya memiliki sistem anti-banjir yang canggih.
-  ✪ Saya dapat memperingatkan pengguna hingga mereka mencapai peringatan maksimal, dengan setiap tindakan yang telah ditentukan sebelumnya seperti larangan, bisu, tendangan, dll.
-  ✪ Saya memiliki sistem pencatatan, daftar hitam, dan bahkan balasan yang telah ditentukan sebelumnya untuk kata kunci tertentu.
-  ✪ Saya memeriksa izin admin sebelum menjalankan perintah apa pun dan hal lainnya
+  ❉ ᴠɪᴀ ᴅᴀɴᴀ/ᴏᴠᴏ +628882104495
 
-  _Niskala dilisensikan di bawah GNU General Public License v3.0_
-  Jika Anda memiliki Pertanyaan, Anda dapat bergabung dengan Obrolan Dukungan. Tim Pengembang saya akan Menjawab. Periksa Tombol Dukungan Di Bawah
+  ᴜɴᴛᴜᴋ ᴛʀᴀɴsᴀᴋsɪ ʟᴀɪɴɴʏᴀ, sɪʟᴀʜᴋᴀɴ ʜᴜʙᴜɴɢɪ ᴘᴇᴍɪʟɪᴋ ᴀᴛᴀᴜ ᴋʟɪᴋ ᴅɪ ʙᴀᴡᴀʜ ɪɴɪ
 pm_about_admin_text: |
   *✺ Ayo buat grupmu sedikit efektif sekarang ✺*
 
@@ -60,12 +54,10 @@ pm_about_credit_text: |
 
   Disini Developers Membuat Dan Memberi Inspirasi Untuk Membuat Hito
 pm_help_text: |
-   💢 Niskala Bisa Mengelola Grup Kamu 💢
-
-   Klik tombol di bawah ini untuk mendapatkan deskripsi tentang perintah spesifik.
-   » /play : Mulai Aku !!
-   » /help : Perintah Untuk Membantu Kamu
-   » /setlang : Untuk Mengganti Bahasa Aku
+   *ᴍᴇɴᴜ ʙᴀɴᴛᴜᴀɴ ᴍᴀɴᴀɢᴇ* 👮‍♂️
+   ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴅɪ ʙᴀᴡᴀʜ ɪɴɪ ᴜɴᴛᴜᴋ ᴍᴇɴᴅᴀᴘᴀᴛᴋᴀɴ ᴅᴇsᴋʀɪᴘsɪ ᴛᴇɴᴛᴀɴɢ ᴘᴇʀɪɴᴛᴀʜ sᴘᴇsɪꜰɪᴋ.
+   ❉ /play : ᴍᴜʟᴀɪ ᴀᴋᴜ !!
+   ❉ /help : ᴘᴇʀɪɴᴛᴀʜ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴀɴᴛᴜ ᴋᴀᴍᴜ
 pm_help_module_text: "Berikut adalah bantuan untuk modul *{}* :\n\n"
 
 # Group Help Text
@@ -252,7 +244,7 @@ blacklist_help: |
 chatbot_help: |
     ──「 Bot Obrolan AI 」──
 
-    Hito AI adalah satu-satunya sistem AI yang dapat mendeteksi & membalas hingga 200 bahasa
+    Futanoki AI adalah satu-satunya sistem AI yang dapat mendeteksi & membalas hingga 200 bahasa
 
     ❂ /chatbot [ON/OFF]: Mengaktifkan dan menonaktifkan mode AI Chat.
     ❂ /chatbot EN : Mengaktifkan chatbot berbahasa Inggris saja.
@@ -348,7 +340,7 @@ fsub_feds_help: |
 
     *Paksa Berlangganan:*
 
-    Siesta dapat membisukan anggota yang tidak berlangganan saluran Anda sampai mereka berlangganan saat diaktifkan, saya akan membisukan anggota yang tidak berlangganan dan menunjukkan kepada mereka tombol suarakan. Ketika mereka menekan tombol, saya akan membunyikan mereka
+    Futanoki dapat membisukan anggota yang tidak berlangganan saluran Anda sampai mereka berlangganan saat diaktifkan, saya akan membisukan anggota yang tidak berlangganan dan menunjukkan kepada mereka tombol suarakan. Ketika mereka menekan tombol, saya akan membunyikan mereka
 
     *Pengaturan* *:* *Hanya pencipta*
     ❂ Tambahkan saya di grup Anda sebagai admin
@@ -510,7 +502,7 @@ WELCOME_MUTE_HELP_TEXT: |
     " ❂ `/welcomemute off`*:* mematikan welcomemute.\n"
     "*Catatan:* Mode kuat mengeluarkan pengguna dari obrolan jika mereka tidak memverifikasi dalam 120 detik. Mereka selalu dapat bergabung kembali"
 info_and_afk_help: |
-    ──「 Info and AFK 」──
+    ──「 Info 」──
 
     *ID:*
     ❂ /id*:* dapatkan id grup saat ini. Jika digunakan dengan membalas pesan, dapatkan id pengguna itu.
@@ -635,9 +627,9 @@ search_help: |
     ❂ /github <username>*:* Dapatkan informasi tentang pengguna GitHub.
     ❂ /country <nama negara>*:* Mengumpulkan info tentang negara tertentu
     ❂ /imdb <Nama film>*:* Dapatkan info lengkap tentang film dengan imdb.com
-    ❂ Niskala <query>*:* Niskala menjawab pertanyaan
+    ❂ Futanoki <query>*:* Futanoki menjawab pertanyaan
 
-    💡 Contoh : `Niskala dimanakah Jawa?`
+    💡 Contoh : `Futanoki dimanakah Jepang?`
 stickers_help: |
     ──「 Stiker 」──
 
@@ -767,7 +759,7 @@ feds_help: |
 lang_help: |
     ──「 Bahasa 」──
 
-    Tidak setiap kelompok fasih berbahasa Inggris; beberapa kelompok lebih suka Niskala menanggapi dalam bahasa mereka sendiri.
+    Tidak setiap kelompok fasih berbahasa Inggris; beberapa kelompok lebih suka Futanoki menanggapi dalam bahasa mereka sendiri.
 
     Di sinilah terjemahan masuk; Anda dapat mengubah bahasa sebagian besar balasan menjadi bahasa pilihan Anda!
 
@@ -859,10 +851,10 @@ distater_help: |
     ❂ /gbanlist: Menampilkan daftar pengguna yang diblokir
 
     Teks Biru Global
-    ❂ /gignoreblue: <word>: Secara global mengabaikan pembersihan teks biru dari kata yang disimpan di Hito.
+    ❂ /gignoreblue: <word>: Secara global mengabaikan pembersihan teks biru dari kata yang disimpan di Futanoki.
     ❂ /ungignoreblue: <word>: Hapus perintah tersebut dari daftar pembersihan global
 
-    Hito Inti
+    Futanoki Inti
     Hanya pemilik
     ❂ /send: <nama modul>: Kirim modul
     ❂ /install: <reply to a .py>: Instal modul
@@ -895,7 +887,7 @@ tod_help: |
     ❂ /truth - Pertanyaan
     ❂ /dare - Tantangan
 
-    Notes : Kalau ada saran kata-kata truth or dare, bisa Pc @IDnyaAL biar bisa ditambahkan.
+    Notes : Kalau ada saran kata-kata truth or dare, bisa Pc @ShinzoShitsuren biar bisa ditambahkan.
 night_help: |
     ──「 Mode Malam 」──
 
@@ -965,15 +957,15 @@ style_help: |
     ❂ /latin <text>: latinkan teks Anda!
     ❂ /lined <text>: melapisi teks Anda!
 pm_hito_help_text: |
-    💢 Menu Bantuan Niskala 💢
-
-    Saya adalah bot manajemen grup modular dengan beberapa tambahan menyenangkan dan dapat memutar musik di grup anda!
-    Lihat di bawah untuk ide tentang beberapa hal yang dapat saya bantu.
+    *ᴍᴇɴᴜ ʙᴀɴᴛᴜᴀɴ ꜰᴜᴛᴧɴōᴋɪ* [🗂](https://telegra.ph//file/ae55c07c1e92161158d55.jpg)
+    ᴘɪʟɪʜ ᴛᴏᴍʙᴏʟ ᴅɪ ʙᴀᴡᴀʜ ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ ᴘᴇʀɪɴᴛᴀʜ ʙᴀɴᴛᴜᴀɴ ꜰᴜᴛᴧɴōᴋɪ.
+    ❉ /bug : ᴜɴᴛᴜᴋ ᴍᴇʟᴀᴘᴏʀᴋᴀɴ ʙᴜɢ
+    ❉ /setlang : ᴜɴᴛᴜᴋ ᴍᴇɴɢɢᴀɴᴛɪ ʙᴀʜᴀsᴀ ᴀᴋᴜ
 music_text: |
-    💢 Niskala Memiliki Fitur Music & Stream 💢
-
-    Anda dapat mendengarkan musik dari platform Youtube,Spotify,Resso dll.
-    Klik Tombol di bawah ini jika Anda tidak mengerti tentang fitur ini.
+    *ᴍᴇɴᴜ ʙᴀɴᴛᴜᴀɴ ᴍᴜsɪᴋ* 🎧
+    ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴅɪ ʙᴀᴡᴀʜ ɪɴɪ ᴊɪᴋᴀ ᴀɴᴅᴀ ᴛɪᴅᴀᴋ ᴍᴇɴɢᴇʀᴛɪ ᴛᴇɴᴛᴀɴɢ ꜰɪᴛᴜʀ ɪɴɪ.
+    ❉ /play : ᴜɴᴛᴜᴋ ᴍᴇᴍᴜᴛᴀʀ ᴍᴜsɪᴋ
+    ❉ /end : ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴇʀʜᴇɴᴛɪᴋᴀɴ ᴍᴜsɪᴋ
 m_admin: |
     🔰Perintah Admin: 
     c adalah singkatan dari pemutaran saluran.
