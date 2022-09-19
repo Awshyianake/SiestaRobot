@@ -47,3 +47,4 @@ def get_all_nsfw_chats():
         return SESSION.query(NSFWChats.chat_id).all()
     finally:
         SESSION.close()
+
