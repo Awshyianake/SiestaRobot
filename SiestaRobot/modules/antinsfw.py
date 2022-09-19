@@ -167,4 +167,4 @@ async def nsfw_enable_disable(_, message):
 def helps(chat): 
     return gs(chat, "antinsfw_help") 
 
-__mod_name__ = "Aɴᴛɪ-ɴsꜰᴡ​"
+__mod_name__ = "ᴀɴᴛɪ-ɴsꜰᴡ"
