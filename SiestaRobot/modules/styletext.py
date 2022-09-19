@@ -477,7 +477,7 @@ def lined(update, context):
 def helps(chat):
     return gs(chat, "style_help")
 
-__mod_name__ = "SᴛʏʟᴇTᴇxᴛ"
+__mod_name__ = "sᴛʏʟᴇ ᴛᴇxᴛ"
 
 WEEBIFY_HANDLER = DisableAbleCommandHandler("weebify", weebify, run_async=True)
 BUBBLE_HANDLER = DisableAbleCommandHandler("bubble", bubble, run_async=True)
