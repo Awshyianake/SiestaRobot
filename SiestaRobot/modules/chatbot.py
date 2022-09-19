@@ -144,7 +144,7 @@ def helps(chat):
 
 __mod_name__ = "ᴄʜᴀᴛʙᴏᴛ"
 
-CHATBOTK_HANDLER = CommandHandler("chatbot", Anoki )
+CHATBOTK_HANDLER = CommandHandler("chatbot", anoki )
 ADD_CHAT_HANDLER = CallbackQueryHandler(kukiadd, pattern=r"add_chat" )
 RM_CHAT_HANDLER = CallbackQueryHandler(kukirm, pattern=r"rm_chat" )
 CHATBOT_HANDLER = MessageHandler(
