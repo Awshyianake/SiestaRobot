@@ -600,7 +600,7 @@ def dva(update, context):
 def helps(chat): 
     return gs(chat, "nsfw_help") 
 
-__mod_name__ = "Nsꜰᴡ"
+__mod_name__ = "ɴsꜰᴡ"
 
 ADD_NSFW_HANDLER = CommandHandler("addnsfw", add_nsfw, run_async=True)
 REMOVE_NSFW_HANDLER = CommandHandler("rmnsfw", rem_nsfw, run_async=True)
