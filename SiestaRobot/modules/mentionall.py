@@ -88,4 +88,4 @@ async def cancel_spam(event):
 def helps(chat): 
     return gs(chat, "mention_help") 
 
-__mod_name__ = "Mᴇɴᴛɪᴏɴs"
+__mod_name__ = "ᴍᴇɴᴛɪᴏɴs"
