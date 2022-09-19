@@ -9,17 +9,16 @@ set_chat_lang: "Bagus, menggunakan Bahasa {} mulai sekarang!"
 
 # PM Text
 pm_start_text: |
-  *ʜᴇʟʟᴏ {}, ɪ'ᴍ ɴɪsᴋᴀʟᴀ !*
-  ✪  sᴀʏᴀ ʀᴏʙᴏᴛ ᴍᴀɴᴀᴊᴇᴍᴇɴ ᴛᴇᴍᴀ ᴡᴀʏᴀɴɢ [✨](https://telegra.ph/file/7769ebc8f6f4e14084cf2.jpg)
+  *ʜᴇʟʟᴏ {}, ɪ'ᴍ ꜰᴜᴛᴧɴōᴋɪ !*
+  *✪ sᴀʏᴀ ʀᴏʙᴏᴛ ᴍᴀɴᴀᴊᴇᴍᴇɴ ᴛᴇᴍᴀ ᴀɴɪᴍᴇ* [✨](https://telegra.ph//file/ae55c07c1e92161158d55.jpg)
   ────────────────────
-  × *Aᴋᴛɪꜰ Sᴇᴊᴀᴋ:* {}
-  × {} *Pᴇɴɢɢᴜɴᴀ, Dɪ Sᴇʟᴜʀᴜʜ* {} *Cʜᴀᴛꜱ.*
+  ⊳ *ᴀᴋᴛɪꜰ Sᴇᴊᴀᴋ* -≽ {}
+  ⊳ {} *ᴘᴇɴɢɢᴜɴᴀ, ᴅɪ sᴇʟᴜʀᴜʜ* {} *ɢʀᴜᴘ.*
   ────────────────────
-  ✪ ᴛᴇᴋᴀɴ /help ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ ᴘᴇʀɪɴᴛᴀʜ sᴀʏᴀ.
-  ✪ ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ʙʏ @IDnyaAL
+  *✪ ᴛᴇᴋᴀɴ ᴛᴏᴍʙᴏʟ ᴍᴇɴᴜ ʙᴀɴᴛᴜᴀɴ ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ sᴇᴍᴜᴀ ᴘᴇʀɪɴᴛᴀʜ ʏᴀɴɢ ᴛᴇʀsᴇᴅɪᴀ.*
    
 group_start_text: |
-  *👋🏻 Hallo Ayang, Aku Niskala!* 
+  *👋🏻 Hallo Ayang, ꜰᴜᴛᴧɴōᴋɪ!* 
   
   *Mulai aktif sejak :* `{}`
 
@@ -86,17 +85,17 @@ group_settings_text: "Klik di sini untuk mendapatkan pengaturan obrolan ini, ser
 group_settings_button: "Pengaturan"
 
 # PM Button
-add_bot_to_group_button: "💢 ᴛᴀᴍʙᴀʜᴋᴀɴ ᴀᴋᴜ ᴋᴇ ɢʀᴜᴘ ᴍᴜ 💢"
-support_chat_link_button: "ᴍᴇɴᴅᴜᴋᴜɴɢ"
+add_bot_to_group_button: "➕ ᴛᴀᴍʙᴀʜᴋᴀɴ ᴀᴋᴜ ᴋᴇ ɢʀᴜᴘ ᴍᴜ ➕"
+support_chat_link_button: "sᴜᴘᴘᴏʀᴛ 📢"
 updates_channel_link_button: "ᴘᴇᴍʙᴀʀᴜᴀɴ"
 notes_button: "ᴄᴀᴛᴀᴛᴀɴ"
 source_button: "ɪɴsᴛᴀɢʀᴀᴍ"
-help_button: "ʙᴀɴᴛᴜᴀɴ"
+help_button: "🗒 ʙᴀɴᴛᴜᴀɴ"
 back_button: "ᴋᴇᴍʙᴀʟɪ"
-about_button: "ᴛᴇɴᴛᴀɴɢ ɴɪsᴋᴀʟᴀ"
-inline_button: "ᴛʀʏ ɪɴʟɪɴᴇ"
+about_button: "ᴅᴏɴᴀsɪ 🚬"
+inline_button: "👑 ᴘᴇᴍɪʟɪᴋ"
 manage_button: "👮‍♂️ ᴍᴀɴᴀɢᴇ"
-music_button: "ᴍᴜsɪᴄ 🎶"
+music_button: "ᴍᴜsɪᴄ 🎧"
 btn_admin: "ᴘᴇʀɪɴᴛᴀʜ ᴀᴅᴍɪɴs"
 btn_play: "ᴘᴇʀɪɴᴛᴀʜ ᴘʟᴀʏ"
 btn_bot: "ᴘᴇʀɪɴᴛᴀʜ ʙᴏᴛ"
@@ -126,11 +125,6 @@ admin_help: |
     ❂ /setgpic*:* membalas gambar untuk ditetapkan sebagai foto grup
     ❂ /setdesc*:* Setel deskripsi grup
     ❂ /setsticker*:* Setel stiker grup
-
-    *Aturan*:
-    ❂ /rules*:* dapatkan aturan untuk obrolan ini.
-    ❂ /setrules <aturan Anda di sini>*:* tetapkan aturan untuk obrolan ini.
-    ❂ /clearrules*:* hapus aturan chat ini.
 anime_help: |
     ──「 Pencarian Anime 」──
 
@@ -350,7 +344,7 @@ MARKDOWN_HELP_TEXT_2: |
     [URL](example.com) [button](buttonurl:github.com)
     [button2](buttonurl://google.com:same)
 fsub_feds_help: |
-    ──「 F-Subs / Feds 」──
+    ──「 F-Subs 」──
 
     *Paksa Berlangganan:*
 
@@ -371,17 +365,6 @@ fsub_feds_help: |
       💡 Jika Anda menonaktifkan fsub, Anda perlu menyetel lagi agar berfungsi.. /fsub {channel username}
 
     ❂ /fsub clear - Untuk mengaktifkan suara semua anggota yang dibisukan oleh saya.
-
-    *Federasi*
-    Semuanya menyenangkan, sampai spammer mulai memasuki grup Anda, dan Anda harus memblokirnya. Maka Anda harus mulai melarang lebih banyak, dan lebih banyak lagi, dan itu menyakitkan.
-    Tapi kemudian Anda memiliki banyak grup, dan Anda tidak ingin spammer ini berada di salah satu grup Anda - bagaimana Anda bisa menanganinya? Apakah Anda harus memblokirnya secara manual, di semua grup Anda?\n
-    *Tidak lagi!* Dengan Federasi, Anda dapat membuat larangan dalam satu obrolan tumpang tindih dengan semua obrolan lainnya.\n
-    Anda bahkan dapat menunjuk admin federasi, sehingga admin tepercaya Anda dapat mencekal semua spammer dari chat yang ingin Anda lindungi.\n
-    *Perintah:*\n
-    Feds sekarang dibagi menjadi 3 bagian untuk kemudahan Anda.
-    ❂ `/fedownerhelp`*:* Menyediakan bantuan untuk pembuatan feed dan perintah pemilik saja
-    ❂ `/fedadminhelp`*:* Menyediakan bantuan untuk perintah administrasi makan
-    ❂ `/feduserhelp`*:* Memberikan bantuan untuk perintah yang dapat digunakan siapa saja
 FED_OWNER_HELP: | 
     ──「 Feds 」──
 
@@ -552,14 +535,6 @@ info_and_afk_help: |
     
     *json Info lengkap:*
     ❂ /json*:* Dapatkan info detail tentang pesan apa pun.
-    
-    *AFk:*
-    Saat ditandai sebagai AFK, penyebutan apa pun akan dibalas dengan pesan yang menyatakan bahwa Anda tidak tersedia!
-    ❂ /afk <reason>*:* Tandai diri Anda sebagai AFK.
-      - brb <reason>: Sama seperti perintah afk, tapi bukan perintah.
-      
-    *Apa itu kesehatan?*
-    Datang dan lihat [Penjelasan Sistem HP](https://t.me/QwertYou_LoveMe/6)
 locks_help: |
     ──「 Mengunci 」──
 
@@ -602,9 +577,6 @@ logomarker_help: |
     Ini adalah menu bantuan untuk pembuat logo
     ❂ /logo <text/name> - Membuat logo dengan tampilan acak.
     ❂ /wlogo <text/name> - Buat logo dengan tampilan lebar saja.
-
-    *Editor Gambar :*
-    ❂ /edit <balas foto> - untuk mengedit gambar.
 musicplayer_help: |
     ──「 Musikplayer 」──
 
@@ -681,20 +653,11 @@ stickers_help: |
 tools_help: |
     ──「 Alat 」──
 
-    *Bot Info Sangmata*
-    ❂ /sg <reply>*:* Untuk memeriksa nama riwayat
-
     *Tanggal-waktu-Cuaca*
     ❂ /time <kode negara>*:* Memberikan informasi tentang zona waktu.
     ❂ /weather <city>*:* Dapatkan info cuaca di tempat tertentu.
     ❂ /wttr <city>*:* Modul cuaca lanjutan, penggunaannya sama dengan /weather
     ❂ /wttr moon*:* Dapatkan status bulan saat ini
-
-    *Mengkonversi*
-    ❂ /encrypt*:* Mengenkripsi Teks yang Diberikan
-    ❂ /decrypt*:* Mendekripsi Teks Terenkripsi Sebelumnya
-    ❂ /zip*:* membalas file telegram untuk mengompresnya dalam format .zip
-    ❂ /unzip*:* membalas file telegram untuk mendekompresnya dari format .zip
 
     *API Acak*
     ❂ /ptl: dapatkan video acak dari timeline Instagram
@@ -715,18 +678,6 @@ translator_help: |
     ❂ /tl <source>//<dest>: menerjemahkan dari <source> ke <lang>.
        misalnya: /tl ja//en: menerjemahkan dari bahasa Jepang ke bahasa Inggris.
     ❂ /langs: dapatkan daftar bahasa yang didukung untuk terjemahan.
-
-    Saya dapat mengubah teks menjadi suara dan suara menjadi teks..
-    ❂ /tts <lang code>*:* Membalas pesan apa pun untuk mendapatkan keluaran teks ke ucapan
-    ❂ /stt*:* Ketikkan balasan ke pesan suara (hanya mendukung bahasa Inggris) untuk mengekstrak teks darinya.
-    
-    *Kode Bahasa*
-      `af,am,ar,az,be,bg,bn,bs,ca,ceb,co,cs,cy,da,de,el,en,eo,es,
-      et,eu,fa,fi,fr,fy,ga,gd,gl,gu,ha,haw,hai,hmn,hr,ht,hu,hy,
-      id,ig,is,it,iw,ja,jw,ka,kk,km,kn,ko,ku,ky,la,lb,lo,lt,lv,mg,mi,mk,
-      ml,mn,mr,ms,mt,my,ne,nl,no,ny,pa,pl,ps,pt,ro,ru,sd,si,sk,sl,
-      sm,sn,so,sq,sr,st,su,sv,sw,ta,te,tg,th,tl,tr,uk,ur,uz,
-      vi,xh,yi,yo,zh,zh_CN,zh_TW,zu`
 warns_help: |
     ──「 Peringatan 」──
 
@@ -995,10 +946,6 @@ asupan_help: |
 telegraph_help: |
     ──「 Uploader 」──
 
-    File Atau Teks Ke Telegraf:
-    ❂ /tgm : Dapatkan Tautan Telegraf Media Balasan
-    ❂ /tgt: Dapatkan Tautan Telegraf dari Teks Balasan
-
     Tautan Ke Berkas:
     ❂ /up: balas tautan unduhan langsung untuk mengunggahnya ke telegram sebagai file
     
@@ -1104,6 +1051,45 @@ m_extra: |
     2️⃣ Mode Putar  Grup atau Saluran - Mengubah mode Putar Anda ke saluran atau grup dan streaming musik hanya di sana.
  
     3️⃣ Tipe Putar  Semua Orang atau Admin - Jika admin, hanya admin yang ada di grup yang dapat memutar musik di obrolan suara.
+afk_help: |
+    ──「 AFK 」──
+
+    Saat ditandai sebagai AFK, penyebutan apa pun akan dibalas dengan pesan yang menyatakan bahwa Anda tidak tersedia!
+    ❂ /afk <reason>*:* Tandai diri Anda sebagai AFK.
+      - brb <reason>: Sama seperti perintah afk, tapi bukan perintah.
+      
+    *Apa itu kesehatan?*
+    Datang dan lihat [Penjelasan Sistem HP](https://t.me/QwertYou_LoveMe/6)
+rules_help: |
+    ──「 Peraturan 」──
+
+    ❂ /rules*:* dapatkan aturan untuk obrolan ini.
+    ❂ /setrules <aturan Anda di sini>*:* tetapkan aturan untuk obrolan ini.
+    ❂ /clearrules*:* hapus aturan chat ini.
+sg_help: |
+    ──「 Sangmata 」──
+
+    *Bot Info Sangmata*
+    ❂ /sg <reply>*:* Untuk memeriksa nama riwayat
+tlgrf_help: |
+    ──「 Telegraph 」──
+
+    File Atau Teks Ke Telegraf:
+    ❂ /tgm : Dapatkan Tautan Telegraf Media Balasan
+    ❂ /tgt: Dapatkan Tautan Telegraf dari Teks Balasan
+images_help: |
+    ──「 Editor Gambar 」──
+
+    *Editor Gambar :*
+    ❂ /edit <balas foto> - untuk mengedit gambar.
+converts_help: |
+    ──「 Converts 」──
+
+    *Mengkonversi*
+    ❂ /encrypt*:* Mengenkripsi Teks yang Diberikan
+    ❂ /decrypt*:* Mendekripsi Teks Terenkripsi Sebelumnya
+    ❂ /zip*:* membalas file telegram untuk mengompresnya dalam format .zip
+    ❂ /unzip*:* membalas file telegram untuk mendekompresnya dari format .zip
 
 # Admin.py Variabel Text
 user_change_info: "Anda kehilangan hak untuk mengubah info obrolan!"
