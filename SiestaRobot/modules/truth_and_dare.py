@@ -20,7 +20,7 @@ def dare(update: Update, context: CallbackContext):
 def helps(chat): 
     return gs(chat, "tod_help")
 
-__mod_name__ = "Tʀᴜᴛʜ/Dᴀʀᴇ"
+__mod_name__ = "ᴛʀᴜᴛʜ/ᴅᴀʀᴇ"
 
 
 TRUTH_HANDLER = DisableAbleCommandHandler("truth", truth, run_async=True)
