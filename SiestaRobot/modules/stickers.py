@@ -580,7 +580,7 @@ def helps(chat):
     return gs(chat, "stickers_help")
 
 
-__mod_name__ = "Sᴛɪᴄᴋᴇʀs"
+__mod_name__ = "sᴛɪᴄᴋᴇʀs"
 
 STICKERID_HANDLER = DisableAbleCommandHandler("stickerid", stickerid, run_async=True)
 GETSTICKER_HANDLER = DisableAbleCommandHandler("getsticker", getsticker, run_async=True)
