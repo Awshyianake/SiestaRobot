@@ -54,8 +54,8 @@ pm_about_credit_text: |
 
   Here Developers Making And Give Inspiration For Made The Hito
 pm_help_text: |
-   *ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴘᴇᴄɪꜰɪᴄs ᴄᴏᴍᴍᴀɴᴅ.*
-
+   *ᴍᴀɴᴀɢᴇ ʜᴇʟᴘ ᴍᴇɴᴜ 👮‍♂️*
+   ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴘᴇᴄɪꜰɪᴄs ᴄᴏᴍᴍᴀɴᴅ.
    ❉ /start : sᴛᴀʀᴛ ᴍᴇ !!
    ❉ /help : ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ
    ❉ /setlang : ᴛᴏ ᴄʜᴀɴɢᴇ ᴍʏ ʟᴀɴɢᴜᴀɢᴇ
@@ -998,15 +998,12 @@ style_help: |
     ❂ /latin <text>: latinify your text!
     ❂ /lined <text>: lined your text!
 pm_hito_help_text: |
-    💢 Niskala Help Menu 💢
-
-    I'm a modular group management bot with some fun additions and can play music in your group!
-    See below for ideas on Some of the things i can help with.
+    *ꜰᴜᴛᴧɴōᴋɪ ʜᴇʟᴘ ᴍᴇɴᴜ 🗂*
+    sᴇʟᴇᴄᴛ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ᴠɪᴇᴡ ᴛʜᴇ ꜰᴜᴛᴧɴōᴋɪ ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅ.[](https://telegra.ph//file/ae55c07c1e92161158d55.jpg)
 music_text: |
-    💢 Niskala Has Music And Stream Features 💢
-
-    You can listen to music from platforms Youtube, Spotify, Resso etc.
-    Click the Button below if you don't understand about this feature.
+    *ᴍᴜsɪᴄ ʜᴇʟᴘ ᴍᴇɴᴜ 🎧*
+    ʏᴏᴜ ᴄᴀɴ ʟɪsᴛᴇɴ ᴛᴏ ᴍᴜsɪᴄ ꜰʀᴏᴍ ᴘʟᴀᴛꜰᴏʀᴍs ʏᴏᴜᴛᴜʙᴇ, sᴘᴏᴛɪꜰʏ, ʀᴇssᴏ ᴇᴛᴄ.
+    ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ɪꜰ ʏᴏᴜ ᴅᴏɴ'ᴛ ᴜɴᴅᴇʀsᴛᴀɴᴅ ᴀʙᴏᴜᴛ ᴛʜɪs ꜰᴇᴀᴛᴜʀᴇ.
 m_admin: |
     🔰Admin Commands:
     c stands for channel play.
