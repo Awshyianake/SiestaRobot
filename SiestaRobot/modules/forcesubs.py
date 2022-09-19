@@ -180,4 +180,4 @@ def config(client, message):
 def helps(chat):
     return gs(chat, "fsub_feds_help")
 
-__mod_name__ = "F-Sᴜʙ/Fᴇᴅs"
+__mod_name__ = "ꜰ-sᴜʙ"
