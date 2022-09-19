@@ -23,6 +23,7 @@ from SiestaRobot import BOT_ID, arq
 from SiestaRobot.helper_extra.aichat import add_chat, get_session, remove_chat
 from SiestaRobot.utils.pluginhelper import admins_only, edit_or_reply
 from SiestaRobot.utils.pyrogram import pbot as luna
+from SiestaRobot.modules.language import gs
 
 translator = google_translator()
 
