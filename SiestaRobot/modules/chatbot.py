@@ -96,7 +96,7 @@ def kuki(update: Update, context: CallbackContext):
 
 def kuki_message(context: CallbackContext, message):
     reply_message = message.reply_to_message
-    if message.text.lower() == "kuki":
+    if message.text.lower() == "anoki":
         return True
     if reply_message:
         if reply_message.from_user.id == context.bot.get_me().id:
@@ -144,7 +144,7 @@ def helps(chat):
 
 __mod_name__ = "ᴄʜᴀᴛʙᴏᴛ"
 
-CHATBOTK_HANDLER = CommandHandler("chatbot", kuki )
+CHATBOTK_HANDLER = CommandHandler("chatbot", Anoki )
 ADD_CHAT_HANDLER = CallbackQueryHandler(kukiadd, pattern=r"add_chat" )
 RM_CHAT_HANDLER = CallbackQueryHandler(kukirm, pattern=r"rm_chat" )
 CHATBOT_HANDLER = MessageHandler(
