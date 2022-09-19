@@ -20,7 +20,7 @@ import aiohttp
 from googletrans import Translator as google_translator
 from pyrogram import filters
 from SiestaRobot import BOT_ID, arq
-from SiestaRobot.helper_extra.aichat import add_chat, get_session, remove_chat
+from SiestaRobot.ex_plugins.aichat import add_chat, get_session, remove_chat
 from SiestaRobot.utils.pluginhelper import admins_only, edit_or_reply
 from SiestaRobot.utils.pyrogram import pbot as luna
 from SiestaRobot.modules.language import gs
@@ -129,13 +129,13 @@ async def hmm(client, message):
         message.continue_propagation()
     if chat_id in en_chats:
         test = msg
-        test = test.replace("anoki", "Aco")
-        test = test.replace("Anoki", "Aco")
+        test = test.replace("anoki", "Shinzo")
+        test = test.replace("Anoki", "Shinzo")
         response = await lunaQuery(
             test, message.from_user.id if message.from_user else 0
         )
-        response = response.replace("Aco", "Anoki")
-        response = response.replace("aco", "Anoki")
+        response = response.replace("Shinzo", "Anoki")
+        response = response.replace("shinzo", "Anoki")
 
         pro = response
         try:
@@ -187,15 +187,15 @@ async def hmm(client, message):
                 return
         # test = emoji.demojize(test.strip())
 
-        test = test.replace("luna", "Aco")
-        test = test.replace("Luna", "Aco")
+        test = test.replace("luna", "Shinzo")
+        test = test.replace("Luna", "Shinzo")
         response = await lunaQuery(
             test, message.from_user.id if message.from_user else 0
         )
-        response = response.replace("Aco", "Anoki")
-        response = response.replace("aco", "Anoki")
-        response = response.replace("Anoki", "Anoki")
-        response = response.replace("anoki", "Anoki")
+        response = response.replace("Shinzo", "Anoki")
+        response = response.replace("shinzo", "Anoki")
+        response = response.replace("Shinzo", "Anoki")
+        response = response.replace("shinzo", "Anoki")
         pro = response
         if not "en" in lan and not lan == "":
             try:
@@ -261,12 +261,12 @@ async def inuka(client, message):
     # test = emoji.demojize(test.strip())
 
     # Kang with the credits bitches @InukaASiTH
-    test = test.replace("anoki", "Aco")
-    test = test.replace("Anoki", "Aco")
+    test = test.replace("anoki", "Shinzo")
+    test = test.replace("Anoki", "Shinzo")
 
     response = await lunaQuery(test, message.from_user.id if message.from_user else 0)
-    response = response.replace("Aco", "Anoki")
-    response = response.replace("aco", "Anoki")
+    response = response.replace("Aco", "Shinzo")
+    response = response.replace("aco", "Shinzo")
 
     pro = response
     if not "en" in lan and not lan == "":
@@ -335,11 +335,11 @@ async def inuka(client, message):
 
     # test = emoji.demojize(test.strip())
 
-    test = test.replace("anoki", "Aco")
-    test = test.replace("Anoki", "Aco")
+    test = test.replace("anoki", "Shinzo")
+    test = test.replace("Anoki", "Shinzo")
     response = await lunaQuery(test, message.from_user.id if message.from_user else 0)
-    response = response.replace("Aco", "Anoki")
-    response = response.replace("aco", "Anoki")
+    response = response.replace("Aco", "Shinzo")
+    response = response.replace("aco", "Shinzo")
 
     pro = response
     if not "en" in lan and not lan == "":
