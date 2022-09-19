@@ -209,8 +209,8 @@ def start(update: Update, context: CallbackContext):
                                 text=gs(chat.id, "add_bot_to_group_button"), url="t.me/FutanokiRobot?startgroup=new"),
                         ],
                         [
-                            InlineKeyboardButton(text="👑 ᴏᴡɴᴇʀ", url="t.me/ShinzoShitsuren"),
-                            InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), url="t.me/ShinzoShitsuren"),
+                            InlineKeyboardButton(text=gs(chat.id, "inline_button"), url="t.me/ShinzoShitsuren"),
+                            InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), url="t.me/stufsupport"),
                         ],
                         [
                             InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="source_"),
@@ -405,8 +405,8 @@ def siesta_about_callback(update, context):
                                 text=gs(chat.id, "add_bot_to_group_button"), url="t.me/FutanokiRobot?startgroup=new"),
                         ],
                         [
-                            InlineKeyboardButton(text="👑 ᴏᴡɴᴇʀ", url="t.me/ShinzoShitsuren"),
-                            InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), url="t.me/ShinzoShitsuren"),
+                            InlineKeyboardButton(text=gs(chat.id, "inline_button"), url="t.me/ShinzoShitsuren"),
+                            InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), url="t.me/stufsupport"),
                         ],
                         [
                             InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="source_"),
@@ -751,7 +751,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1338853808:
+        if OWNER_ID != 1960514334:
             update.effective_message.reply_text(
                 "I'm free for everyone ❤️ If you wanna make me smile, just join"
                 "[My Channel]({})".format(DONATION_LINK),
@@ -800,7 +800,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                f"""**✨ ɴɪsᴋᴀʟᴀ ᴀᴄᴛɪᴠᴇ ɴᴏᴡ ✨**""",
+                f"""**ᴋᴏɴ'ɴɪᴄʜɪᴡᴀ, ᴡᴀᴛᴀsʜɪ ᴡᴀ ɪᴋɪᴛᴇ ɪᴍᴀsᴜ 😉**""",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
