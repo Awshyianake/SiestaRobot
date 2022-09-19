@@ -2385,7 +2385,7 @@ def fed_user_help(update: Update, context: CallbackContext):
 def helps(chat): 
     return gs(chat, "feds_help")
 
-__mod_name__ = "Fᴇᴅᴇʀᴀᴛɪᴏɴs"
+__mod_name__ = "ꜰᴇᴅᴇʀᴀᴛɪᴏɴs"
 
 
 NEW_FED_HANDLER = CommandHandler("newfed", new_fed, run_async=True)
