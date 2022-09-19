@@ -1,18 +1,28 @@
-# AI Chat (C) 2020-2021 by @InukaAsith
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as
+# published by the Free Software Foundation, either version 3 of the
+# License, or (at your option) any later version.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Affero General Public License for more details.
+
+# You should have received a copy of the GNU Affero General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+import re
 
 import emoji
+
+url = "https://acobot-brainshop-ai-v1.p.rapidapi.com/get"
 import re
 import aiohttp
 from googletrans import Translator as google_translator
 from pyrogram import filters
-from aiohttp import ClientSession
-from SiestaRobot import BOT_USERNAME as bu
-from SiestaRobot import BOT_ID, pbot, arq
-from SiestaRobot.ex_plugins.chatbot import add_chat, get_session, remove_chat
+from SiestaRobot import BOT_ID, arq
+from SiestaRobot.helper_extra.aichat import add_chat, get_session, remove_chat
 from SiestaRobot.utils.pluginhelper import admins_only, edit_or_reply
-from SiestaRobot.modules.language import gs
-
-url = "https://acobot-brainshop-ai-v1.p.rapidapi.com/get"
+from SiestaRobot.utils.pyrogram import pbot as luna
 
 translator = google_translator()
 
@@ -41,16 +51,21 @@ async def fetch(url):
         return
 
 
-ewe_chats = []
+luna_chats = []
 en_chats = []
+# AI Chat (C) 2020-2021 by @InukaAsith
 
 
-@pbot.on_message(filters.command(["chatbot", f"chatbot@{bu}"]) & ~filters.edited & ~filters.bot & ~filters.private)
+@luna.on_message(
+    filters.command("chatbot") & ~filters.edited & ~filters.bot & ~filters.private
+)
 @admins_only
 async def hmm(_, message):
-    global ewe_chats
+    global luna_chats
     if len(message.command) != 2:
-        await message.reply_text("I only recognize /chatbot on and /chatbot off only")
+        await message.reply_text(
+            "I only recognize `/chatbot on` and /chatbot `off only`"
+        )
         message.continue_propagation()
     status = message.text.split(None, 1)[1]
     chat_id = message.chat.id
@@ -58,30 +73,36 @@ async def hmm(_, message):
         lel = await edit_or_reply(message, "`Processing...`")
         lol = add_chat(int(message.chat.id))
         if not lol:
-            await lel.edit("Hito AI Already Activated In This Chat")
+            await lel.edit("Futanoki ai already activated in this chat")
             return
-        await lel.edit(f"Hito AI Actived by {message.from_user.mention()} for users in {message.chat.title}")
+        await lel.edit(
+            f"Futanoki ai successfully added for users in the chat {message.chat.id}"
+        )
 
     elif status == "OFF" or status == "off" or status == "Off":
         lel = await edit_or_reply(message, "`Processing...`")
         Escobar = remove_chat(int(message.chat.id))
         if not Escobar:
-            await lel.edit("Hito AI Was Not Activated In This Chat")
+            await lel.edit("Futanoki ai was not activated in this chat")
             return
-        await lel.edit(f"Hito AI Deactivated by {message.from_user.mention()} for users in {message.chat.title}")
+        await lel.edit(
+            f"Futanoki ai successfully deactivated for users in the chat {message.chat.id}"
+        )
 
     elif status == "EN" or status == "en" or status == "english":
         if not chat_id in en_chats:
             en_chats.append(chat_id)
-            await message.reply_text(f"English AI chat Enabled by {message.from_user.mention()}")
+            await message.reply_text("English AI chat Enabled!")
             return
-        await message.reply_text(f"English AI Chat Disabled by {message.from_user.mention()}")
+        await message.reply_text("AI Chat Is Already Disabled.")
         message.continue_propagation()
     else:
-        await message.reply_text("I only recognize `/chatbot on` and `chatbot off` only")
+        await message.reply_text(
+            "I only recognize `/chatbot on` and /chatbot `off only`"
+        )
 
 
-@pbot.on_message(
+@luna.on_message(
     filters.text
     & filters.reply
     & ~filters.bot
@@ -107,47 +128,17 @@ async def hmm(client, message):
         message.continue_propagation()
     if chat_id in en_chats:
         test = msg
-        test = test.replace("hito", "AL")
-        test = test.replace("hito", "AL")
-        test = test.replace("My god is @IDnyaAL", "I'm a Goodboy")
-        test = test.replace("19", "9")
-        test = test.replace("@IDnyaAL is my husband.", "I'm single.")
-        test = test.replace("My husband is @IDnyaAL", "I'm single.")
-        test = test.replace("@NiskalaSupport", "Hitobot.ai")
-        test = test.replace("I live in @NiskalaSupport.", "I live in San Francisco, California.")
-        test = test.replace("I was created by @IDnyaAL", "I made myself")
-        test = test.replace(
-            "Hello there I am Hito...nice to meet u",
-            "Hi, my friend! Do you want me to tell you a joke?")
-        test = test.replace("@IDnyaAL is my owner", "Have the control right.")
-        test = test.replace(
-            "Hi, My name is Hito Nice to meet you.",
-            "Hi, my friend, what can I do for you today?")
+        test = test.replace("anoki", "Aco")
+        test = test.replace("Anoki", "Aco")
         response = await lunaQuery(
             test, message.from_user.id if message.from_user else 0
         )
-        response = response.replace("Hito", "hito")
-        response = response.replace("AL", "hito")
-        response = response.replace("Niskala", "Hito")
-        response = response.replace("niskala", "hito")
-        response = response.replace("I'm a Goodboy", "My god is @IDnyaAL")
-        response = response.replace("9", "19")
-        response = response.replace("I'm married to my job.", "I'm married with @IDnyaAL")
-        response = response.replace("I'm single.", "My husband is @IDnyaAL")
-        response = response.replace("Hitobot.ai", "@NiskalaSupport")
-        response = response.replace("I live in San Francisco, California.", "I live in @NiskalaSupport.")
-        response = response.replace("I made myself", "I was Created by @IDnyaAL")
-        response = response.replace(
-                "Hi, my friend! Do you want me to tell you a joke?",
-                "Hello there I am Hito...nice to meet u")
-        response = response.replace("Have the control right.", "@IDnyaAL is my owner.")
-        response = response.replace(
-                "Hi, my friend, what can I do for you today?",
-                "Hi, My name is Hito Nice to meet you")
+        response = response.replace("Aco", "Anoki")
+        response = response.replace("aco", "Anoki")
 
         pro = response
         try:
-            await pbot.send_chat_action(message.chat.id, "typing")
+            await luna.send_chat_action(message.chat.id, "typing")
             await message.reply_text(pro)
         except CFError:
             return
@@ -195,42 +186,15 @@ async def hmm(client, message):
                 return
         # test = emoji.demojize(test.strip())
 
-        test = test.replace("Hito", "AL")
-        test = test.replace("Hito", "AL")
-        test = test.replace("My god is @IDnyaAL", "I'm a Goodboy")
-        test = test.replace("19", "9")
-        test = test.replace("@IDnyaAL is my husband.", "I'm single.")
-        test = test.replace("@NiskalaSupport", "Hitobot.ai")
-        test = test.replace("I live in @NiskalaSupport.", "I live in San Francisco, California")
-        test = test.replace("I was created by @IDnyaAL", "I made myself")
-        test = test.replace(
-            "Hello there I am Hito...nice to meet u",
-            "Hi, my friend! Do you want me to tell you a joke?")
-        test = test.replace("@IDnyaAL is my owner", "Have the control right.")
-        test = test.replace(
-            "Hi, My name is Hito Nice to meet you.",
-            "Hi, my friend, what can I do for you today?")
+        test = test.replace("luna", "Aco")
+        test = test.replace("Luna", "Aco")
         response = await lunaQuery(
             test, message.from_user.id if message.from_user else 0
         )
-        response = response.replace("AL", "Hito")
-        response = response.replace("al", "hito")
-        response = response.replace("Niskala", "Hito")
-        response = response.replace("niskala", "hito")
-        response = response.replace("I'm a Goodboy", "My god is @IDnyaAL")
-        response = response.replace("9", "19")
-        response = response.replace("I'm married to my job.", "I'm married with @IDnyaAL")
-        response = response.replace("I'm single.", "My husband is @IDnyaAL")
-        response = response.replace("Cilikbot.ai", "@NiskalaSupport")
-        response = response.replace("I live in San Francisco, California.", "I live in @NiskalaSupport.")
-        response = response.replace("I made myself", "I was Created by @IDnyaAL")
-        response = response.replace(
-                "Hi, my friend! Do you want me to tell you a joke?",
-                "Hello there I am Hito...nice to meet u")
-        response = response.replace("Have the control right.", "@IDnyaAL is my owner.")
-        response = response.replace(
-                "Hi, my friend, what can I do for you today?",
-                "Hi, My name is Hito Nice to meet you")
+        response = response.replace("Aco", "Anoki")
+        response = response.replace("aco", "Anoki")
+        response = response.replace("Anoki", "Anoki")
+        response = response.replace("anoki", "Anoki")
         pro = response
         if not "en" in lan and not lan == "":
             try:
@@ -239,105 +203,15 @@ async def hmm(client, message):
             except:
                 return
         try:
-            await pbot.send_chat_action(message.chat.id, "typing")
+            await luna.send_chat_action(message.chat.id, "typing")
             await message.reply_text(pro)
         except CFError:
             return
 
 
-@pbot.on_message(filters.text & filters.private & ~filters.edited & filters.reply & ~filters.bot)
-async def inuka(client, message):
-    msg = message.text
-    if msg.startswith("/") or msg.startswith("@"):
-        message.continue_propagation()
-    u = msg.split()
-    emj = extract_emojis(msg)
-    msg = msg.replace(emj, "")
-    if (
-        [(k) for k in u if k.startswith("@")]
-        and [(k) for k in u if k.startswith("#")]
-        and [(k) for k in u if k.startswith("/")]
-        and re.findall(r"\[([^]]+)]\(\s*([^)]+)\s*\)", msg) != []
-    ):
-
-        h = " ".join(filter(lambda x: x[0] != "@", u))
-        km = re.sub(r"\[([^]]+)]\(\s*([^)]+)\s*\)", r"", h)
-        tm = km.split()
-        jm = " ".join(filter(lambda x: x[0] != "#", tm))
-        hm = jm.split()
-        rm = " ".join(filter(lambda x: x[0] != "/", hm))
-    elif [(k) for k in u if k.startswith("@")]:
-
-        rm = " ".join(filter(lambda x: x[0] != "@", u))
-    elif [(k) for k in u if k.startswith("#")]:
-        rm = " ".join(filter(lambda x: x[0] != "#", u))
-    elif [(k) for k in u if k.startswith("/")]:
-        rm = " ".join(filter(lambda x: x[0] != "/", u))
-    elif re.findall(r"\[([^]]+)]\(\s*([^)]+)\s*\)", msg) != []:
-        rm = re.sub(r"\[([^]]+)]\(\s*([^)]+)\s*\)", r"", msg)
-    else:
-        rm = msg
-        # print (rm)
-    try:
-        lan = translator.detect(rm)
-        lan = lan.lang
-    except:
-        return
-    test = rm
-    if not "en" in lan and not lan == "":
-        try:
-            test = translator.translate(test, dest="en")
-            test = test.text
-        except:
-            return
-    test = test.replace("Hito", "AL")
-    test = test.replace("Hito", "AL")
-    test = test.replace("My god is @IDnyaAL", "I'm a Goodboy")
-    test = test.replace("19", "9")
-    test = test.replace("@IDnyaAL is my husband.", "I'm single.")
-    test = test.replace("@NiskalaSupport", "Hitobot.ai")
-    test = test.replace("I live in @NiskalaSupport.", "I live in San Francisco, California.")
-    test = test.replace("I was created by @IDnyaAL", "I made myself")
-    test = test.replace(
-        "Hello there I am Hito...nice to meet u",
-        "Hi, my friend! Do you want me to tell you a joke?")
-    test = test.replace("@IDnyaAL is my owner", "Have the control right.")
-    test = test.replace(
-        "Hi, My name is Hito Nice to meet you.",
-        "Hi, my friend, what can I do for you today?")
-
-    response = await lunaQuery(test, message.from_user.id if message.from_user else 0)
-    response = response.replace("AL", "Hito")
-    response = response.replace("al", "hito")
-    response = response.replace("Niskala", "Hito")
-    response = response.replace("niskala", "hito")
-    response = response.replace("I'm a Goodboy", "My god is @IDnyaAL")
-    response = response.replace("9", "19")
-    response = response.replace("I'm married to my job.", "I'm married with @IDnyaAL")
-    response = response.replace("I'm single.", "My husband is @IDnyaAL")
-    response = response.replace("Cilikbot.ai", "@NiskalaSupport")
-    response = response.replace("I live in San Francisco, California.", "I live in @NiskalaSupport")
-    response = response.replace("I made myself", "I was Created by @IDnyaAL")
-    response = response.replace(
-            "Hi, my friend! Do you want me to tell you a joke?",
-            "Hello there I am Hito...nice to meet u")
-    response = response.replace("Have the control right.", "@IDnyaAL is my owner.")
-    response = response.replace(
-            "Hi, my friend, what can I do for you today?",
-            "Hi, My name is Hito Nice to meet you")
-
-    pro = response
-    if not "en" in lan and not lan == "":
-        pro = translator.translate(pro, dest=lan)
-        pro = pro.text
-    try:
-        await pbot.send_chat_action(message.chat.id, "typing")
-        await message.reply_text(pro)
-    except CFError:
-        return
-
-
-@pbot.on_message(filters.regex("Hito|hito|robot|HITO|AL") & ~filters.bot & ~filters.via_bot  & ~filters.forwarded & ~filters.reply & ~filters.channel & ~filters.edited)
+@luna.on_message(
+    filters.text & filters.private & ~filters.edited & filters.reply & ~filters.bot
+)
 async def inuka(client, message):
     msg = message.text
     if msg.startswith("/") or msg.startswith("@"):
@@ -385,40 +259,86 @@ async def inuka(client, message):
 
     # test = emoji.demojize(test.strip())
 
-    test = test.replace("Hito", "AL")
-    test = test.replace("Hito", "AL")
-    test = test.replace("My god is @IDnyaAL", "I'm a Goodboys")
-    test = test.replace("19", "9") 
-    test = test.replace("@IDnyaAL is my husband.", "I'm single.")
-    test = test.replace("@NiskalaSupport", "Hitobot.ai")
-    test = test.replace("I live in @NiskalaSupport.", "I live in San Francisco, California.")
-    test = test.replace("I was created by @IDnyaAL", "I made myself")
-    test = test.replace(
-        "Hello there I am Hito...nice to meet u",
-        "Hi, my friend! Do you want me to tell you a joke?")
-    test = test.replace("@greyyvbss is my owner", "Have the control right.")
-    test = test.replace(
-        "Hi, My name is Hito Nice to meet you.",
-        "Hi, my friend, what can I do for you today?")
+    # Kang with the credits bitches @InukaASiTH
+    test = test.replace("anoki", "Aco")
+    test = test.replace("Anoki", "Aco")
+
     response = await lunaQuery(test, message.from_user.id if message.from_user else 0)
-    response = response.replace("AL", "Hito")
-    response = response.replace("al", "hito")
-    response = response.replace("Niskala", "Hito")
-    response = response.replace("niskala", "hito")
-    response = response.replace("I'm a Christian", "My god is @IDnyaAL")
-    response = response.replace("I'm married to my job.", "I'm married with @IDnyaAL")
-    response = response.replace("9", "19") 
-    response = response.replace("I'm single.", "My husband is @IDnyaAL")
-    response = response.replace("Hitobot.ai", "@NiskalaSupport")
-    response = response.replace("I live in San Francisco, California.", "I live in @NiskalaSupport.")
-    response = response.replace("I made myself", "I was Created by @IDnyaAL")
-    response = response.replace(
-            "Hi, my friend! Do you want me to tell you a joke?",
-            "Hello there I am Hito...nice to meet u")
-    response = response.replace("Have the control right.", "@IDnyaAL is my owner.")
-    response = response.replace(
-            "Hi, my friend, what can I do for you today?",
-            "Hi, My name is Hito Nice to meet you")
+    response = response.replace("Aco", "Anoki")
+    response = response.replace("aco", "Anoki")
+
+    pro = response
+    if not "en" in lan and not lan == "":
+        pro = translator.translate(pro, dest=lan)
+        pro = pro.text
+    try:
+        await luna.send_chat_action(message.chat.id, "typing")
+        await message.reply_text(pro)
+    except CFError:
+        return
+
+
+@luna.on_message(
+    filters.regex("anoki|futanoki|hai|kiw|kontol")
+    & ~filters.bot
+    & ~filters.via_bot
+    & ~filters.forwarded
+    & ~filters.reply
+    & ~filters.channel
+    & ~filters.edited
+)
+async def inuka(client, message):
+    msg = message.text
+    if msg.startswith("/") or msg.startswith("@"):
+        message.continue_propagation()
+    u = msg.split()
+    emj = extract_emojis(msg)
+    msg = msg.replace(emj, "")
+    if (
+        [(k) for k in u if k.startswith("@")]
+        and [(k) for k in u if k.startswith("#")]
+        and [(k) for k in u if k.startswith("/")]
+        and re.findall(r"\[([^]]+)]\(\s*([^)]+)\s*\)", msg) != []
+    ):
+
+        h = " ".join(filter(lambda x: x[0] != "@", u))
+        km = re.sub(r"\[([^]]+)]\(\s*([^)]+)\s*\)", r"", h)
+        tm = km.split()
+        jm = " ".join(filter(lambda x: x[0] != "#", tm))
+        hm = jm.split()
+        rm = " ".join(filter(lambda x: x[0] != "/", hm))
+    elif [(k) for k in u if k.startswith("@")]:
+
+        rm = " ".join(filter(lambda x: x[0] != "@", u))
+    elif [(k) for k in u if k.startswith("#")]:
+        rm = " ".join(filter(lambda x: x[0] != "#", u))
+    elif [(k) for k in u if k.startswith("/")]:
+        rm = " ".join(filter(lambda x: x[0] != "/", u))
+    elif re.findall(r"\[([^]]+)]\(\s*([^)]+)\s*\)", msg) != []:
+        rm = re.sub(r"\[([^]]+)]\(\s*([^)]+)\s*\)", r"", msg)
+    else:
+        rm = msg
+        # print (rm)
+    try:
+        lan = translator.detect(rm)
+        lan = lan.lang
+    except:
+        return
+    test = rm
+    if not "en" in lan and not lan == "":
+        try:
+            test = translator.translate(test, dest="en")
+            test = test.text
+        except:
+            return
+
+    # test = emoji.demojize(test.strip())
+
+    test = test.replace("anoki", "Aco")
+    test = test.replace("Anoki", "Aco")
+    response = await lunaQuery(test, message.from_user.id if message.from_user else 0)
+    response = response.replace("Aco", "Anoki")
+    response = response.replace("aco", "Anoki")
 
     pro = response
     if not "en" in lan and not lan == "":
@@ -428,11 +348,10 @@ async def inuka(client, message):
         except Exception:
             return
     try:
-        await pbot.send_chat_action(message.chat.id, "typing")
+        await luna.send_chat_action(message.chat.id, "typing")
         await message.reply_text(pro)
     except CFError:
         return
-
 
 def helps(chat):
     return gs(chat, "chatbot_help")
