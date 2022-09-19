@@ -9,32 +9,25 @@ set_chat_lang: "Great, using {} Language it is from now on!"
 
 # PM Text
 pm_start_text: |
-  *ʜᴇʟʟᴏ {}, ɪ'ᴍ ɴɪsᴋᴀʟᴀ !*
-  ✪ ɪ'ᴍ ᴡᴀʏᴀɴɢ-ᴛʜᴇᴍᴇ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʀᴏʙᴏᴛ​ [✨](https://telegra.ph/file/7769ebc8f6f4e14084cf2.jpg)
+  *ʜᴇʟʟᴏ {}, ɪ'ᴍ ꜰᴜᴛᴧɴōᴋɪ !*
+  *✪ ɪ'ᴍ ᴀɴɪᴍᴇ-ᴛʜᴇᴍᴇ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʀᴏʙᴏᴛ*​ [✨](https://telegra.ph//file/ae55c07c1e92161158d55.jpg)
   ────────────────────
   × *Uᴘᴛɪᴍᴇ:* {}
   × {} *Uꜱᴇʀ, Aᴄʀᴏꜱꜱ* {} *Cʜᴀᴛꜱ.*
   ────────────────────
-  ✪ ʜɪᴛ /help ᴛᴏ sᴇᴇ ᴍʏ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.
-  ✪ ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ʙʏ @IDnyaAL
+  *✪ ʜɪᴛ /help ᴛᴏ sᴇᴇ ᴍʏ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.*
    
 group_start_text: |
-  *👋🏻 Hello Bro., I'm ɴɪsᴋᴀʟᴀ !*
+  *👋🏻 Hello Bro., I'm ꜰᴜᴛᴧɴōᴋɪ !*
   
   *Started active since :* `{}`
 
 pm_about_text: |
-  ✺ Hello Bro I'm *Niskala*, a powerful group management bot built to help you manage your group easily. ✺
+  *ꜰᴏʀ ᴛʜᴏsᴇ ᴡʜᴏ ᴡᴀɴᴛ ᴛᴏ ᴅᴏɴᴀᴛᴇ ᴀs ᴀ ᴛʜᴀɴᴋ ʏᴏᴜ ᴛᴏ ᴛʜᴇ ᴄʀᴇᴀᴛᴏʀ ꜰᴜᴛᴧɴōᴋɪ.*
 
-  ✪ I can restrict users.
-  ✪ I can greet users with customizable welcome messages and even set a group's rules.
-  ✪ I have an advanced anti-flood system.
-  ✪ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
-  ✪ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
-  ✪ I check for admins' permissions before executing any command and more stuffs
+  ❉ ᴠɪᴀ ᴅᴀɴᴀ/ᴏᴠᴏ +628882104495
 
-  _Niskala's licensed under the GNU General Public License v3.0_
-  If you have any Question, You can join Support Chat. My Developer Team will Answer. Check Support Button Below
+  ꜰᴏʀ ᴏᴛʜᴇʀ ᴛʀᴀɴsᴀᴄᴛɪᴏɴs, ᴘʟᴇᴀsᴇ ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ ᴏᴡɴᴇʀ ᴏʀ ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ
 pm_about_admin_text: |
   *✺ Let's make your group bit effective now ✺*
 
@@ -61,9 +54,8 @@ pm_about_credit_text: |
 
   Here Developers Making And Give Inspiration For Made The Hito
 pm_help_text: |
-   💢 Niskala Can Manage Your Group 💢
+   ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴘᴇᴄɪꜰɪᴄs ᴄᴏᴍᴍᴀɴᴅ.
 
-   Click on the button bellow to get description about specifics command.
    » /start : Start Me !!
    » /help : Command To Help You
    » /setlang : To Change My Language
@@ -86,17 +78,17 @@ group_settings_text: "Click here to get this chat's settings, as well as yours."
 group_settings_button: "Settings"
 
 # PM Button
-add_bot_to_group_button: "💢 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 💢"
+add_bot_to_group_button: "➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕"
 support_chat_link_button: "sᴜᴘᴘᴏʀᴛ"
 updates_channel_link_button: "ᴜᴘᴅᴀᴛᴇ"
 notes_button: "ɴᴏᴛᴇs"
 source_button: "ɪɴsᴛᴀɢʀᴀᴍ"
 help_button: "ɢᴇᴛ ʜᴇʟᴘ"
 back_button: "ʙᴀᴄᴋ"
-about_button: "ᴀʙᴏᴜᴛ ɴɪsᴋᴀʟᴀ"
+about_button: "ᴅᴏɴᴀᴛᴇ 🎁"
 inline_button: "ᴛʀʏ ɪɴʟɪɴᴇ"
 manage_button: "👮‍♂️ ᴍᴀɴᴀɢᴇ"
-music_button: "ᴍᴜsɪᴄ 🎶"
+music_button: "ᴍᴜsɪᴄ 🎧"
 btn_admin : "ᴀᴅᴍɪɴs ᴄᴏᴍᴍᴀɴᴅs"
 btn_play : "ᴘʟᴀʏ ᴄᴏᴍᴍᴀɴᴅs"
 btn_bot : "ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs"
