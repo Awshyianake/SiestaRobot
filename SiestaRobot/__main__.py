@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-SIESTA_IMG = "https://telegra.ph/file/7769ebc8f6f4e14084cf2.jpg"
+SIESTA_IMG = "https://telegra.ph//file/ae55c07c1e92161158d55.jpg"
 
 DONATE_STRING = """Thank you for those of you who have donated, may God reward you twice as much for what you give 🤲"""
 IMPORTED = {}
@@ -210,11 +210,11 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(text="👑 ᴏᴡɴᴇʀ", url="t.me/ShinzoShitsuren"),
-                            InlineKeyboardButton(text=gs(chat.id, "about_button"), callback_data="siesta_"),
+                            InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), url="t.me/ShinzoShitsuren"),
                         ],
                         [
                             InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="source_"),
-                            InlineKeyboardButton(text=gs(chat.id, "inline_button"), switch_inline_query_current_chat=""),
+                            InlineKeyboardButton(text=gs(chat.id, "about_button"), callback_data="siesta_"),
                             
                         ]
                     ]
@@ -380,8 +380,8 @@ def siesta_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                    InlineKeyboardButton(text="🇮🇩 Indonesia", callback_data="languages_id"),
-                    InlineKeyboardButton(text="🇱🇷 English", callback_data="languages_en"),
+                    InlineKeyboardButton(text="👨‍💻 sʜɪɴᴢō", url="t.me/ShinzoShitsuren"),
+                    InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ 💌", url="t.me/Shinzo_Shitsuren"),
                     ],
                     [
                     InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_back"),
@@ -406,11 +406,11 @@ def siesta_about_callback(update, context):
                         ],
                         [
                             InlineKeyboardButton(text="👑 ᴏᴡɴᴇʀ", url="t.me/ShinzoShitsuren"),
-                            InlineKeyboardButton(text=gs(chat.id, "about_button"), callback_data="siesta_"),
+                            InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), url="t.me/ShinzoShitsuren"),
                         ],
                         [
                             InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="source_"),
-                            InlineKeyboardButton(text="lang_button", callback_data=set_lang"),
+                            InlineKeyboardButton(text=gs(chat.id, "about_button"), callback_data="siesta_"),
                             
                         ]
                     ]
