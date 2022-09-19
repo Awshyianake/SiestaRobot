@@ -539,7 +539,7 @@ def devlist(update: Update, context: CallbackContext):
 def helps(chat): 
     return gs(chat, "distater_help")
 
-__mod_name__ = "Dɪsᴀsᴛᴇʀs"
+__mod_name__ = "ᴅɪsᴀsᴛᴇʀs"
 
 SUDO_HANDLER = CommandHandler(("addsudo", "addemperor"), addsudo, run_async=True)
 SUPPORT_HANDLER = CommandHandler(("addsupport", "addcaptain"), addsupport, run_async=True)
