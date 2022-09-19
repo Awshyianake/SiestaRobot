@@ -132,4 +132,4 @@ async def close_send_photo(_, CallbackQuery):
 def helps(chat): 
     return gs(chat, "bug_help") 
 
-__mod_name__ = "Bᴜɢ Rᴇᴘᴏʀᴛ"
+__mod_name__ = "ʙᴜɢ ʀᴇᴘᴏʀᴛ"
