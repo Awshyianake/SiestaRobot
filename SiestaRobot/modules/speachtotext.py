@@ -89,4 +89,4 @@ async def _(event):
 def helps(chat): 
     return gs(chat, "tts_help") 
 
-__mod_name__ = "Tᴛs/Sᴛᴛ"
+__mod_name__ = "ᴛᴛs/sᴛᴛ"
