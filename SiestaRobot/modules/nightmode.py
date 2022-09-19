@@ -167,7 +167,7 @@ async def job_open():
 def helps(chat): 
     return gs(chat, "night_help") 
 
-__mod_name__ = "NɪɢʜᴛMᴏᴅᴇ"
+__mod_name__ = "ɴɪɢʜᴛ ᴍᴏᴅᴇ"
 
 # Run everyday at 06
 scheduler = AsyncIOScheduler(timezone="Asia/Jakarta")
