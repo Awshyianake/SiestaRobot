@@ -12,10 +12,10 @@ pm_start_text: |
   *ʜᴇʟʟᴏ {}, ɪ'ᴍ ꜰᴜᴛᴧɴōᴋɪ !*
   *✪ ɪ'ᴍ ᴀɴɪᴍᴇ-ᴛʜᴇᴍᴇ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʀᴏʙᴏᴛ*​ [✨](https://telegra.ph//file/ae55c07c1e92161158d55.jpg)
   ────────────────────
-  × *Uᴘᴛɪᴍᴇ:* {}
-  × {} *Uꜱᴇʀ, Aᴄʀᴏꜱꜱ* {} *Cʜᴀᴛꜱ.*
+  ⊳ *ᴜᴘᴛɪᴍᴇ* -≽ {}
+  ⊳ {} *ᴜꜱᴇʀ, ᴀᴄʀᴏꜱꜱ* {} *ᴄʜᴀᴛꜱ.*
   ────────────────────
-  *✪ ʜɪᴛ /help ᴛᴏ sᴇᴇ ᴍʏ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.*
+  *✪ ᴘʀᴇss ᴛʜᴇ ʜᴇʟᴘ ᴍᴇɴᴜ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴠɪᴇᴡ ᴀʟʟ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.*
    
 group_start_text: |
   *👋🏻 Hello Bro., I'm ꜰᴜᴛᴧɴōᴋɪ !*
@@ -54,11 +54,11 @@ pm_about_credit_text: |
 
   Here Developers Making And Give Inspiration For Made The Hito
 pm_help_text: |
-   ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴘᴇᴄɪꜰɪᴄs ᴄᴏᴍᴍᴀɴᴅ.
+   *ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴘᴇᴄɪꜰɪᴄs ᴄᴏᴍᴍᴀɴᴅ.*
 
-   » /start : Start Me !!
-   » /help : Command To Help You
-   » /setlang : To Change My Language
+   ❉ /start : sᴛᴀʀᴛ ᴍᴇ !!
+   ❉ /help : ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ
+   ❉ /setlang : ᴛᴏ ᴄʜᴀɴɢᴇ ᴍʏ ʟᴀɴɢᴜᴀɢᴇ
 pm_help_module_text: "Here is the help for the *{}* module :\n\n"
 
 # Group Help Text
@@ -79,13 +79,13 @@ group_settings_button: "Settings"
 
 # PM Button
 add_bot_to_group_button: "➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕"
-support_chat_link_button: "sᴜᴘᴘᴏʀᴛ"
+support_chat_link_button: "sᴜᴘᴘᴏʀᴛ 📢"
 updates_channel_link_button: "ᴜᴘᴅᴀᴛᴇ"
 notes_button: "ɴᴏᴛᴇs"
 source_button: "ɪɴsᴛᴀɢʀᴀᴍ"
-help_button: "ɢᴇᴛ ʜᴇʟᴘ"
+help_button: "🗒 ʜᴇʟᴘ ᴍᴇɴᴜ"
 back_button: "ʙᴀᴄᴋ"
-about_button: "ᴅᴏɴᴀᴛᴇ 🎁"
+about_button: "ᴅᴏɴᴀᴛᴇ 🚬"
 inline_button: "ᴛʀʏ ɪɴʟɪɴᴇ"
 manage_button: "👮‍♂️ ᴍᴀɴᴀɢᴇ"
 music_button: "ᴍᴜsɪᴄ 🎧"
