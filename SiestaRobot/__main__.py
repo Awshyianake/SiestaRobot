@@ -800,7 +800,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                f"""**ᴋᴏɴ'ɴɪᴄʜɪᴡᴀ, ᴡᴀᴛᴀsʜɪ ᴡᴀ ɪᴋɪᴛᴇ ɪᴍᴀsᴜ 😉**""",
+                f"""**ᴋᴏɴ'ɴɪᴄʜɪᴡᴀ, ᴡᴀᴛᴀsʜɪ ᴡᴀ ɪᴋɪᴛᴇ ɪᴍᴀsᴜ**""",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
