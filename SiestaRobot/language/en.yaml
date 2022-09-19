@@ -58,7 +58,6 @@ pm_help_text: |
    ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴘᴇᴄɪꜰɪᴄs ᴄᴏᴍᴍᴀɴᴅ.
    ❉ /start : sᴛᴀʀᴛ ᴍᴇ !!
    ❉ /help : ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ
-   ❉ /setlang : ᴛᴏ ᴄʜᴀɴɢᴇ ᴍʏ ʟᴀɴɢᴜᴀɢᴇ
 pm_help_module_text: "Here is the help for the *{}* module :\n\n"
 
 # Group Help Text
@@ -998,12 +997,14 @@ style_help: |
     ❂ /latin <text>: latinify your text!
     ❂ /lined <text>: lined your text!
 pm_hito_help_text: |
-    *ꜰᴜᴛᴧɴōᴋɪ ʜᴇʟᴘ ᴍᴇɴᴜ* [🗂](https://telegra.ph//file/ae55c07c1e92161158d55.jpg)
+    *ꜰᴜᴛᴧɴōᴋɪ ʜᴇʟᴘ ᴍᴇɴᴜ* 🗂(https://telegra.ph//file/ae55c07c1e92161158d55.jpg)
     sᴇʟᴇᴄᴛ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ᴠɪᴇᴡ ᴛʜᴇ ꜰᴜᴛᴧɴōᴋɪ ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅ.
+    ❉ /setlang : ᴛᴏ ᴄʜᴀɴɢᴇ ᴍʏ ʟᴀɴɢᴜᴀɢᴇ
 music_text: |
     *ᴍᴜsɪᴄ ʜᴇʟᴘ ᴍᴇɴᴜ* 🎧
-     ʏᴏᴜ ᴄᴀɴ ʟɪsᴛᴇɴ ᴛᴏ ᴍᴜsɪᴄ ꜰʀᴏᴍ ᴘʟᴀᴛꜰᴏʀᴍs ʏᴏᴜᴛᴜʙᴇ, sᴘᴏᴛɪꜰʏ, ʀᴇssᴏ ᴇᴛᴄ.
-     ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ɪꜰ ʏᴏᴜ ᴅᴏɴ'ᴛ ᴜɴᴅᴇʀsᴛᴀɴᴅ ᴀʙᴏᴜᴛ ᴛʜɪs ꜰᴇᴀᴛᴜʀᴇ.
+    ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ɪꜰ ʏᴏᴜ ᴅᴏɴ'ᴛ ᴜɴᴅᴇʀsᴛᴀɴᴅ ᴀʙᴏᴜᴛ ᴛʜɪs ꜰᴇᴀᴛᴜʀᴇ.
+    ❉ /play : ᴛᴏ ᴘʟᴀʏ ᴍᴜsɪᴄ
+    ❉ /end : ᴛᴏ sᴛᴏᴘ ᴛʜᴇ ᴍᴜsɪᴄ
 m_admin: |
     🔰Admin Commands:
     c stands for channel play.
