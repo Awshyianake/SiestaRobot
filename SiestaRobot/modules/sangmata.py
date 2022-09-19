@@ -3,7 +3,7 @@ from SiestaRobot import telethn as tbot
 from SiestaRobot.events import register
 from SiestaRobot import ubot2 as ubot
 from asyncio.exceptions import TimeoutError
-
+from SiestaRobot.modules.language import gs
 
 @register(pattern="^/sg ?(.*)")
 async def lastname(steal):
@@ -59,7 +59,7 @@ async def lastname(steal):
 
 
 
-@register(pattern="^/quotly ?(.*)")
+@register(pattern="^/q ?(.*)")
 async def quotess(qotli):
     if qotli.fwd_from:
         return
@@ -93,3 +93,8 @@ async def quotess(qotli):
                                               [msg.id, response.id])
     except TimeoutError:
         await qotli.edit()
+
+def helps(chat):
+    return gs(chat, "sg_help")
+
+__mod_name__ = "sᴀɴɢᴍᴀᴛᴀ"
