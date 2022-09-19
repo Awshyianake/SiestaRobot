@@ -117,11 +117,6 @@ admin_help: |
     ❂ /setgpic*:* reply to an image to set as group photo
     ❂ /setdesc*:* Set group description
     ❂ /setsticker*:* Set group sticker
-
-    *Rules*:
-    ❂ /rules*:* get the rules for this chat.
-    ❂ /setrules <your rules here>*:* set the rules for this chat.
-    ❂ /clearrules*:* clear the rules for this chat.
 anime_help: |
     ──「 Anime Search 」──   
 
@@ -185,7 +180,7 @@ antispam_help: |
 
     This also integrates @Spamwatch API to remove Spammers as much as possible from your chatroom!
     *What is SpamWatch?*
-    SpamWatch maintains a large constantly updated ban-list of spambots, trolls, bitcoin spammers and unsavoury characters[.](https://telegra.ph/file/f584b643c6f4be0b1de53.jpg)
+    SpamWatch maintains a large constantly updated ban-list of spambots, trolls, bitcoin spammers and unsavoury characters
     Constantly help banning spammers off from your group automatically So, you wont have to worry about spammers storming your group.
     *Note:* Users can appeal spamwatch bans at @SpamwatchSupport
 approve_help: |
@@ -341,11 +336,11 @@ MARKDOWN_HELP_TEXT_2: |
     [URL](example.com) [button](buttonurl:github.com)
     [button2](buttonurl://google.com:same)
 fsub_feds_help: |
-    ──「 F-Subs / Feds 」──
+    ──「 F-Subs 」──
 
     *Force Subscribe:*
 
-    Hito can mute members who are not subscribed your channel until they subscribe When enabled I will mute unsubscribed members and show them a unmute button. When they pressed the button I will unmute them
+    Futanoki can mute members who are not subscribed your channel until they subscribe When enabled I will mute unsubscribed members and show them a unmute button. When they pressed the button I will unmute them
 
     *Setup* *:* *Only creator*
     ❂ Add me in your group as admin
@@ -362,17 +357,6 @@ fsub_feds_help: |
       💡If you disable fsub, you need to set again for working.. /fsub {channel username} 
 
     ❂ /fsub clear - To unmute all members who muted by me.
-
-    *Federation*
-    Everything is fun, until a spammer starts entering your group, and you have to block it. Then you need to start banning more, and more, and it hurts.
-    But then you have many groups, and you don't want this spammer to be in one of your groups - how can you deal? Do you have to manually block it, in all your groups?\n
-    *No longer!* With Federation, you can make a ban in one chat overlap with all other chats.\n
-    You can even designate federation admins, so your trusted admin can ban all the spammers from chats you want to protect.\n
-    *Commands:*\n
-    Feds are now divided into 3 sections for your ease.
-    ❂ `/fedownerhelp`*:* Provides help for fed creation and owner only commands
-    ❂ `/fedadminhelp`*:* Provides help for fed administration commands
-    ❂ `/feduserhelp`*:* Provides help for commands anyone can use
 FED_OWNER_HELP: | 
     ──「 Feds 」──
 
@@ -518,7 +502,7 @@ WELCOME_MUTE_HELP_TEXT: |
     "  ❂ `/welcomemute off`*:* turns off welcomemute.\n"
     "*Note:* Strong mode kicks a user from the chat if they dont verify in 120seconds. They can always rejoin though"
 info_and_afk_help: |
-    ──「 Info and AFK 」──
+    ──「 Info 」──
 
     *ID:*
     ❂ /id*:* get the current group id. If used by replying to a message, gets that user's id.
@@ -543,14 +527,6 @@ info_and_afk_help: |
     
     *json Detailed info:*
     ❂ /json*:* Get Detailed info about any message.
-    
-    *AFk:*
-    When marked as AFK, any mentions will be replied to with a message stating that you're not available!
-    ❂ /afk <reason>*:* Mark yourself as AFK.
-      - brb <reason>: Same as the afk command, but not a command. 
-      
-    *What is that health thingy?*
-    Come and see [HP System explained](https://t.me/QwertYou_LoveMe/6)
 locks_help: |
     ──「 Locks 」──
 
@@ -593,9 +569,6 @@ logomarker_help: |
     This is help menu for logomaker
     ❂ /logo <text/name> - Create a logo with random view.
     ❂ /wlogo <text/name> - Create a logo with wide view only.
-
-    *Image Editor : *
-    ❂  /edit <reply photo> - to edit image.
 musicplayer_help: |
     ──「 Musicplayer 」──
 
@@ -654,7 +627,7 @@ search_help: |
     ❂ /github <username>*:* Get information about a GitHub user.
     ❂ /country <country name>*:* Gathering info about given country
     ❂ /imdb <Movie name>*:* Get full info about a movie with imdb.com
-    ❂ Futanoki <query>*:* Niskala answers the query
+    ❂ Futanoki <query>*:* Futanoki answers the query
 
     💡 Ex : `Futanoki where is Japan?`
 stickers_help: |
@@ -672,20 +645,11 @@ stickers_help: |
 tools_help: |
     ──「 Tools 」──
 
-    *Sangmata Info bot*
-    ❂ /sg <reply>*:* To check history name
-
     *Date-time-Weather*
     ❂ /time <country code>*:* Gives information about a timezone.
     ❂ /weather <city>*:* Get weather info in a particular place.
     ❂ /wttr <city>*:* Advanced weather module, usage same as /weather
     ❂ /wttr moon*:* Get the current status of moon
-
-    *Converts*
-    ❂ /encrypt*:* Encrypts The Given Text
-    ❂ /decrypt*:* Decrypts Previously Ecrypted Text
-    ❂ /zip*:* reply to a telegram file to compress it in .zip format
-    ❂ /unzip*:* reply to a telegram file to decompress it from the .zip format
 
     *Random API*
     ❂ /ptl: get random video from Instagram timeline
@@ -887,7 +851,7 @@ distater_help: |
     ❂ /gbanlist: Outputs a list of gbanned users
 
     Global Blue Text
-    ❂ /gignoreblue: <word>: Globally ignorea bluetext cleaning of saved word across Hito.
+    ❂ /gignoreblue: <word>: Globally ignorea bluetext cleaning of saved word across Futanaki.
     ❂ /ungignoreblue: <word>: Remove said command from global cleaning list
 
     Hito Core
@@ -906,7 +870,7 @@ distater_help: |
 bug_help: |
     ──「 Bug Report 」──
 
-    Bug Report Is a module for reporting bugs on Niskala bots
+    Bug Report Is a module for reporting bugs on Futanoki bots
     So that the bot can be fixed as soon as possible
 
     Command : 
@@ -923,7 +887,7 @@ tod_help: |
     ❂ /truth - Question
     ❂ /dare - Challenges
 
-    Notes : If you have suggestions for words for truth or dare, you can Pc @IDnyaAL so that they can be added.
+    Notes : If you have suggestions for words for truth or dare, you can Pc @ShinzoShitsuren so that they can be added.
 night_help: |
     ──「 Night Mode 」──
 
@@ -973,10 +937,6 @@ asupan_help: |
     Warning ️: This Module is For Entertainment Only !!!
 telegraph_help: |
     ──「 Uploader 」──
-
-    File Or Text To Telegraph:
-    ❂ /tgm : Get Telegraph Link Of Replied Media
-    ❂ /tgt: Get Telegraph Link of Replied Text
 
     Link To File:
     ❂ /up: reply to a direct download link to upload it to telegram as files
@@ -1084,6 +1044,45 @@ m_extra: |
     2️⃣ Play Mode  Group or Channel - Changes your Play mode to channel or group and streams music there only.
 
     3️⃣ Play Type  Everyone or Admins - If admins, only admins present in group can play music on voice chat.
+afk_help: |
+    ──「 AFK 」──
+
+    When marked as AFK, any mentions will be replied to with a message stating that you're not available!
+    ❂ /afk <reason>*:* Mark yourself as AFK.
+      - brb <reason>: Same as the afk command, but not a command. 
+      
+    *What is that health thingy?*
+    Come and see [HP System explained](https://t.me/QwertYou_LoveMe/6)
+rules_help: |
+    ──「 Rules 」──
+
+    ❂ /rules*:* get the rules for this chat.
+    ❂ /setrules <your rules here>*:* set the rules for this chat.
+    ❂ /clearrules*:* clear the rules for this chat.
+sg_help: |
+    ──「 Sangmata 」──
+
+    *Sangmata Info bot*
+    ❂ /sg <reply>*:* To check history name
+tlgrf_help: |
+    ──「 Telegraph 」──
+
+    File Or Text To Telegraph:
+    ❂ /tgm : Get Telegraph Link Of Replied Media
+    ❂ /tgt: Get Telegraph Link of Replied Text
+images_help: |
+    ──「 Image Editor 」──
+
+    *Image Editor :*
+    ❂  /edit <reply photo> - to edit image.
+converts_help: |
+    ──「 Converts 」──
+
+    *Converts*
+    ❂ /encrypt*:* Encrypts The Given Text
+    ❂ /decrypt*:* Decrypts Previously Ecrypted Text
+    ❂ /zip*:* reply to a telegram file to compress it in .zip format
+    ❂ /unzip*:* reply to a telegram file to decompress it from the .zip format
 
 # Admin.py Variabel Text
 user_change_info: "You're missing rights to change chat info!"
