@@ -79,14 +79,14 @@ def kukiadd(update: Update, context: CallbackContext) -> str:
 def kuki(update: Update, context: CallbackContext):
     user = update.effective_user
     message = update.effective_message
-    msg = "Choose an option My Boss"
+    msg = "Silahkan pilih sir, Mau dinyalain apa dimatiin 😉"
     keyboard = InlineKeyboardMarkup([[
         InlineKeyboardButton(
-            text="ᴇɴᴀʙʟᴇ 👻",
+            text="ᴇɴᴀʙʟᴇ ✅",
             callback_data="add_chat({})")],
        [
         InlineKeyboardButton(
-            text="ᴅɪsᴀʙʟᴇ 💔",
+            text="ᴅɪsᴀʙʟᴇ ❌",
             callback_data="rm_chat({})")]])
     message.reply_text(
         msg,
@@ -96,7 +96,7 @@ def kuki(update: Update, context: CallbackContext):
 
 def kuki_message(context: CallbackContext, message):
     reply_message = message.reply_to_message
-    if message.text.lower() == "kuki":
+    if message.text.lower() == "anoki":
         return True
     if reply_message:
         if reply_message.from_user.id == context.bot.get_me().id:
@@ -118,7 +118,7 @@ def chatbot(update: Update, context: CallbackContext):
             return
         sweetie = message.text
         bot.send_chat_action(chat_id, action="typing")
-        url = f"https://kukiapi.xyz/api/apikey=1356469075-KUKIkq4WMg5FV4/KIGO/NULL-CODER/message={sweetie}" 
+        url = f"https://kukiapi.xyz/api/apikey=1356469075-KUKIkq4WMg5FV4/FUTANOKI/SHINZO/message={sweetie}" 
         request = requests.get(url) 
         results = json.loads(request.text) 
         boyresult = f"{results['reply']}"
@@ -144,7 +144,7 @@ def helps(chat):
 
 __mod_name__ = "ᴄʜᴀᴛʙᴏᴛ"
 
-CHATBOTK_HANDLER = CommandHandler("chatbot", kuki )
+CHATBOTK_HANDLER = CommandHandler("chatbot", anoki )
 ADD_CHAT_HANDLER = CallbackQueryHandler(kukiadd, pattern=r"add_chat" )
 RM_CHAT_HANDLER = CallbackQueryHandler(kukirm, pattern=r"rm_chat" )
 CHATBOT_HANDLER = MessageHandler(
