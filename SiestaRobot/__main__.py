@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-SIESTA_IMG = "https://telegra.ph//file/ae55c07c1e92161158d55.jpg"
+SIESTA_IMG = "https://telegra.ph/file/c880f57deef159e1e9b6c.jpg"
 
 DONATE_STRING = """Thank you for those of you who have donated, may God reward you twice as much for what you give 🤲"""
 IMPORTED = {}
@@ -205,17 +205,17 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton(
-                                text=gs(chat.id, "add_bot_to_group_button"), url="t.me/FutanokiRobot?startgroup=new"),
-                        ],
-                        [
-                            InlineKeyboardButton(text=gs(chat.id, "inline_button"), url="t.me/ShinzoShitsuren"),
-                            InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), url="t.me/stufsupport"),
+                            InlineKeyboardButton(text=gs(chat.id, "inline_button"), url="t.me/Buduh"),
+                            InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), url="t.me/NiskalaSupport"),
                         ],
                         [
                             InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="source_"),
                             InlineKeyboardButton(text=gs(chat.id, "about_button"), callback_data="siesta_"),
-                            
+                        ],
+                        [
+                            InlineKeyboardButton(
+                                text=gs(chat.id, "add_bot_to_group_button"), url="t.me/NiskalaXRobot?startgroup=new"),
+                        
                         ]
                     ]
                 ),
@@ -380,8 +380,8 @@ def siesta_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                    InlineKeyboardButton(text="👨‍💻 sʜɪɴᴢō", url="t.me/ShinzoShitsuren"),
-                    InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ 💌", url="t.me/Shinzo_Shitsuren"),
+                    InlineKeyboardButton(text="👨‍💻 ꝛᴢʏᴅx", url="t.me/ShinzoShitsuren"),
+                    InlineKeyboardButton(text="ᴊʜᴏꝛᴅ 🤴", url="t.me/Bangjhorr"),
                     ],
                     [
                     InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_back"),
@@ -401,17 +401,17 @@ def siesta_about_callback(update, context):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton(
-                                text=gs(chat.id, "add_bot_to_group_button"), url="t.me/FutanokiRobot?startgroup=new"),
-                        ],
-                        [
-                            InlineKeyboardButton(text=gs(chat.id, "inline_button"), url="t.me/ShinzoShitsuren"),
-                            InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), url="t.me/stufsupport"),
+                            InlineKeyboardButton(text=gs(chat.id, "inline_button"), url="t.me/Buduh"),
+                            InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), url="t.me/NiskalaSupport"),
                         ],
                         [
                             InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="source_"),
                             InlineKeyboardButton(text=gs(chat.id, "about_button"), callback_data="siesta_"),
-                            
+                        ],
+                        [
+                            InlineKeyboardButton(
+                                text=gs(chat.id, "add_bot_to_group_button"), url="t.me/NiskalaXRobot?startgroup=new"),
+                        
                         ]
                     ]
                 ),
@@ -751,7 +751,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1960514334:
+        if OWNER_ID != 2127705153:
             update.effective_message.reply_text(
                 "I'm free for everyone ❤️ If you wanna make me smile, just join"
                 "[My Channel]({})".format(DONATION_LINK),
@@ -800,7 +800,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                f"""**ᴋᴏɴ'ɴɪᴄʜɪᴡᴀ, ᴡᴀᴛᴀsʜɪ ᴡᴀ ɪᴋɪᴛᴇ ɪᴍᴀsᴜ**""",
+                f"""**Aing Maung**""",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
