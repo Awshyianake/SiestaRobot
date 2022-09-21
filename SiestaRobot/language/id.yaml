@@ -9,8 +9,8 @@ set_chat_lang: "Bagus, menggunakan Bahasa {} mulai sekarang!"
 
 # PM Text
 pm_start_text: |
-  *ʜᴇʟʟᴏ {}, ᴀᴋᴜ ꜰᴜᴛᴧɴōᴋɪ !*
-  *✪ sᴀʏᴀ ʀᴏʙᴏᴛ ᴍᴀɴᴀᴊᴇᴍᴇɴ ᴛᴇᴍᴀ ᴀɴɪᴍᴇ* [✨](https://telegra.ph//file/ae55c07c1e92161158d55.jpg)
+  *ʜᴇʟʟᴏ {}, ᴀᴋᴜ ɴɪsᴋᴀʟᴀ !*
+  *✪ sᴀʏᴀ ʀᴏʙᴏᴛ ᴍᴀɴᴀᴊᴇᴍᴇɴ ᴛᴇᴍᴀ ᴡᴀʏᴀɴɢ* [✨](https://telegra.ph/file/c880f57deef159e1e9b6c.jpg)
   ────────────────────
   ⊳ *ᴀᴋᴛɪꜰ sᴇᴊᴀᴋ* -≽ {}
   ⊳ {} *ᴘᴇɴɢɢᴜɴᴀ, ᴅɪ sᴇʟᴜʀᴜʜ* {} *ɢʀᴜᴘ.*
@@ -18,12 +18,12 @@ pm_start_text: |
   *✪ ᴛᴇᴋᴀɴ ᴛᴏᴍʙᴏʟ ᴍᴇɴᴜ ʙᴀɴᴛᴜᴀɴ ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ sᴇᴍᴜᴀ ᴘᴇʀɪɴᴛᴀʜ ʏᴀɴɢ ᴛᴇʀsᴇᴅɪᴀ.*
    
 group_start_text: |
-  *👋🏻 Hallo Ayang, ꜰᴜᴛᴧɴōᴋɪ!* 
+  *👋🏻 Hallo Ayang, ɴɪsᴋᴀʟᴀ!* 
   
   *Mulai aktif sejak :* `{}`
 
 pm_about_text: |
-  *ʙᴀɢɪ ʏᴀɴɢ ɪɴɢɪɴ ʙᴇʀᴅᴏɴᴀsɪ sᴇʙᴀɢᴀɪ ᴜᴄᴀᴘᴀɴ ᴛᴇʀɪᴍᴀ ᴋᴀsɪʜ ᴋᴇᴘᴀᴅᴀ ᴘᴇɴᴄɪᴘᴛᴀ ꜰᴜᴛᴧɴōᴋɪ.*
+  *ʙᴀɢɪ ʏᴀɴɢ ɪɴɢɪɴ ʙᴇʀᴅᴏɴᴀsɪ sᴇʙᴀɢᴀɪ ᴜᴄᴀᴘᴀɴ ᴛᴇʀɪᴍᴀ ᴋᴀsɪʜ ᴋᴇᴘᴀᴅᴀ ᴘᴇɴᴄɪᴘᴛᴀ ɴɪsᴋᴀʟᴀ.*
 
   ❉ ᴠɪᴀ ᴅᴀɴᴀ/ᴏᴠᴏ +628882104495
 
@@ -82,10 +82,10 @@ support_chat_link_button: "sᴜᴘᴘᴏʀᴛ 📢"
 updates_channel_link_button: "ᴘᴇᴍʙᴀʀᴜᴀɴ"
 notes_button: "ᴄᴀᴛᴀᴛᴀɴ"
 source_button: "ɪɴsᴛᴀɢʀᴀᴍ"
-help_button: "🗒 ʙᴀɴᴛᴜᴀɴ"
+help_button: "📖 ʙᴀɴᴛᴜᴀɴ"
 back_button: "ᴋᴇᴍʙᴀʟɪ"
 about_button: "ᴅᴏɴᴀsɪ 🚬"
-inline_button: "👑 ᴘᴇᴍɪʟɪᴋ"
+inline_button: "💌 ᴄʜᴀɴɴᴇʟ"
 manage_button: "👮‍♂️ ᴍᴀɴᴀɢᴇ"
 music_button: "ᴍᴜsɪᴄ 🎧"
 btn_admin: "ᴘᴇʀɪɴᴛᴀʜ ᴀᴅᴍɪɴs"
@@ -244,7 +244,7 @@ blacklist_help: |
 chatbot_help: |
     ──「 Bot Obrolan AI 」──
 
-    Futanoki AI adalah satu-satunya sistem AI yang dapat mendeteksi & membalas hingga 200 bahasa
+    Niskala AI adalah satu-satunya sistem AI yang dapat mendeteksi & membalas hingga 200 bahasa
 
     ❂ /chatbot [ON/OFF]: Mengaktifkan dan menonaktifkan mode AI Chat.
     ❂ /chatbot EN : Mengaktifkan chatbot berbahasa Inggris saja.
@@ -260,7 +260,7 @@ cleaner_help: |
 
     *Berikut adalah perintah khusus Bencana, admin tidak dapat menggunakan ini:*
 
-    ❂ /gignoreblue <word>*:* secara global mengabaikan pembersihan teks biru dari kata yang disimpan di Hito.
+    ❂ /gignoreblue <word>*:* secara global mengabaikan pembersihan teks biru dari kata yang disimpan di Niskala.
     ❂ /ungignoreblue <word>*:* hapus perintah tersebut dari daftar pembersihan global
 connection_help: |
     ──「 Koneksi 」──
@@ -340,7 +340,7 @@ fsub_feds_help: |
 
     *Paksa Berlangganan:*
 
-    Futanoki dapat membisukan anggota yang tidak berlangganan saluran Anda sampai mereka berlangganan saat diaktifkan, saya akan membisukan anggota yang tidak berlangganan dan menunjukkan kepada mereka tombol suarakan. Ketika mereka menekan tombol, saya akan membunyikan mereka
+    Niskala dapat membisukan anggota yang tidak berlangganan saluran Anda sampai mereka berlangganan saat diaktifkan, saya akan membisukan anggota yang tidak berlangganan dan menunjukkan kepada mereka tombol suarakan. Ketika mereka menekan tombol, saya akan membunyikan mereka
 
     *Pengaturan* *:* *Hanya pencipta*
     ❂ Tambahkan saya di grup Anda sebagai admin
@@ -627,9 +627,9 @@ search_help: |
     ❂ /github <username>*:* Dapatkan informasi tentang pengguna GitHub.
     ❂ /country <nama negara>*:* Mengumpulkan info tentang negara tertentu
     ❂ /imdb <Nama film>*:* Dapatkan info lengkap tentang film dengan imdb.com
-    ❂ Futanoki <query>*:* Futanoki menjawab pertanyaan
+    ❂ Niskala <query>*:* Niskala menjawab pertanyaan
 
-    💡 Contoh : `Futanoki dimanakah Jepang?`
+    💡 Contoh : `Niskala dimanakah Jawa?`
 stickers_help: |
     ──「 Stiker 」──
 
@@ -870,7 +870,7 @@ distater_help: |
 bug_help: |
     ──「 Bug Report 」──
 
-    Bug Report Merupakan modul untuk melaporkan bug pada bot Hito
+    Bug Report Merupakan modul untuk melaporkan bug pada bot Niskala
     Supaya botnya bisa diperbaiki secepatnya
 
     Memerintah :
@@ -957,7 +957,7 @@ style_help: |
     ❂ /latin <text>: latinkan teks Anda!
     ❂ /lined <text>: melapisi teks Anda!
 pm_hito_help_text: |
-    *ᴍᴇɴᴜ ʙᴀɴᴛᴜᴀɴ ꜰᴜᴛᴧɴōᴋɪ* [🗂](https://telegra.ph//file/ae55c07c1e92161158d55.jpg)
+    *ᴍᴇɴᴜ ʙᴀɴᴛᴜᴀɴ ɴɪsᴋᴀʟᴀ* [🗂](https://telegra.ph/file/c880f57deef159e1e9b6c.jpg)
     ᴘɪʟɪʜ ᴛᴏᴍʙᴏʟ ᴅɪ ʙᴀᴡᴀʜ ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ ᴘᴇʀɪɴᴛᴀʜ ʙᴀɴᴛᴜᴀɴ ꜰᴜᴛᴧɴōᴋɪ.
     ❉ /bug : ᴜɴᴛᴜᴋ ᴍᴇʟᴀᴘᴏʀᴋᴀɴ ʙᴜɢ
     ❉ /setlang : ᴜɴᴛᴜᴋ ᴍᴇɴɢɢᴀɴᴛɪ ʙᴀʜᴀsᴀ ᴀᴋᴜ
