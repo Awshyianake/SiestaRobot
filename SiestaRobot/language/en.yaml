@@ -9,8 +9,8 @@ set_chat_lang: "Great, using {} Language it is from now on!"
 
 # PM Text
 pm_start_text: |
-  *ʜᴇʟʟᴏ {}, ɪ'ᴍ ꜰᴜᴛᴧɴōᴋɪ !*
-  *✪ ɪ'ᴍ ᴀɴɪᴍᴇ-ᴛʜᴇᴍᴇ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʀᴏʙᴏᴛ*​ [✨](https://telegra.ph//file/ae55c07c1e92161158d55.jpg)
+  *ʜᴇʟʟᴏ {}, ɪ'ᴍ ɴɪsᴋᴀʟᴀ!*
+  *✪ ɪ'ᴍ ᴡᴀʏᴀɴɢ-ᴛʜᴇᴍᴇ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʀᴏʙᴏᴛ*​ [✨](https://telegra.ph/file/c880f57deef159e1e9b6c.jpg)
   ────────────────────
   ⊳ *ᴜᴘᴛɪᴍᴇ* -≽ {}
   ⊳ {} *ᴜꜱᴇʀ, ᴀᴄʀᴏꜱꜱ* {} *ᴄʜᴀᴛꜱ.*
@@ -18,12 +18,12 @@ pm_start_text: |
   *✪ ᴘʀᴇss ᴛʜᴇ ʜᴇʟᴘ ᴍᴇɴᴜ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴠɪᴇᴡ ᴀʟʟ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.*
    
 group_start_text: |
-  *👋🏻 Hello Bro., I'm ꜰᴜᴛᴧɴōᴋɪ !*
+  *👋🏻 Hello Bro., I'm ɴɪsᴋᴀʟᴀ !*
   
   *Started active since :* `{}`
 
 pm_about_text: |
-  *ꜰᴏʀ ᴛʜᴏsᴇ ᴡʜᴏ ᴡᴀɴᴛ ᴛᴏ ᴅᴏɴᴀᴛᴇ ᴀs ᴀ ᴛʜᴀɴᴋ ʏᴏᴜ ᴛᴏ ᴛʜᴇ ᴄʀᴇᴀᴛᴏʀ ꜰᴜᴛᴧɴōᴋɪ.*
+  *ꜰᴏʀ ᴛʜᴏsᴇ ᴡʜᴏ ᴡᴀɴᴛ ᴛᴏ ᴅᴏɴᴀᴛᴇ ᴀs ᴀ ᴛʜᴀɴᴋ ʏᴏᴜ ᴛᴏ ᴛʜᴇ ᴄʀᴇᴀᴛᴏʀ ɴɪsᴋᴀʟᴀ.*
 
   ❉ ᴠɪᴀ ᴅᴀɴᴀ/ᴏᴠᴏ +628882104495
 
@@ -82,10 +82,10 @@ support_chat_link_button: "sᴜᴘᴘᴏʀᴛ 📢"
 updates_channel_link_button: "ᴜᴘᴅᴀᴛᴇ"
 notes_button: "ɴᴏᴛᴇs"
 source_button: "ɪɴsᴛᴀɢʀᴀᴍ"
-help_button: "🗒 ʜᴇʟᴘ ᴍᴇɴᴜ"
+help_button: "📖 ʜᴇʟᴘ ᴍᴇɴᴜ"
 back_button: "ʙᴀᴄᴋ"
 about_button: "ᴅᴏɴᴀᴛᴇ 🚬"
-inline_button: "👑 ᴏᴡɴᴇʀ"
+inline_button: "💌 ᴄʜᴀɴɴᴇʟ"
 manage_button: "👮‍♂️ ᴍᴀɴᴀɢᴇ"
 music_button: "ᴍᴜsɪᴄ 🎧"
 btn_admin : "ᴀᴅᴍɪɴs ᴄᴏᴍᴍᴀɴᴅs"
@@ -244,7 +244,7 @@ blacklist_help: |
 chatbot_help: |
     ──「 Chatbot AI 」──
 
-    Futanoki AI is the only ai system which can detect & reply upto 200 language's
+    Niskala AI is the only ai system which can detect & reply upto 200 language's
 
     ❂ /chatbot [ON/OFF]: Enables and disables AI Chat mode.
     ❂ /chatbot EN : Enables English only chatbot.
@@ -260,7 +260,7 @@ cleaner_help: |
 
     *Following are Disasters only commands, admins cannot use these:*
 
-    ❂ /gignoreblue <word>*:* globally ignorea bluetext cleaning of saved word across Hito.
+    ❂ /gignoreblue <word>*:* globally ignorea bluetext cleaning of saved word across Niskala.
     ❂ /ungignoreblue <word>*:* remove said command from global cleaning list
 connection_help: |
     ──「 Connection 」──
@@ -629,7 +629,7 @@ search_help: |
     ❂ /imdb <Movie name>*:* Get full info about a movie with imdb.com
     ❂ Futanoki <query>*:* Futanoki answers the query
 
-    💡 Ex : `Futanoki where is Japan?`
+    💡 Ex : `Niskala where is Java?`
 stickers_help: |
     ──「 Stickers 」──
 
@@ -759,7 +759,7 @@ feds_help: |
 lang_help: |
     ──「 Language 」──
 
-    Not every group speaks fluent english; some groups would rather have Futanoki respond in their own language.
+    Not every group speaks fluent english; some groups would rather have Niskala respond in their own language.
 
     This is where translations come in; you can change the language of most replies to be in the language of your choice!
 
@@ -870,7 +870,7 @@ distater_help: |
 bug_help: |
     ──「 Bug Report 」──
 
-    Bug Report Is a module for reporting bugs on Futanoki bots
+    Bug Report Is a module for reporting bugs on Niskala bots
     So that the bot can be fixed as soon as possible
 
     Command : 
@@ -957,10 +957,10 @@ style_help: |
     ❂ /latin <text>: latinify your text!
     ❂ /lined <text>: lined your text!
 pm_hito_help_text: |
-    *ꜰᴜᴛᴧɴōᴋɪ ʜᴇʟᴘ ᴍᴇɴᴜ* 🗂
+    *ɴɪsᴋᴀʟᴀ ʜᴇʟᴘ ᴍᴇɴᴜ* [🗂](https://telegra.ph/file/c880f57deef159e1e9b6c.jpg)
     sᴇʟᴇᴄᴛ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ᴠɪᴇᴡ ᴛʜᴇ ꜰᴜᴛᴧɴōᴋɪ ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅ.
     ❉ /bug : ᴛᴏ ʀᴇᴘᴏʀᴛ ᴀ ʙᴜɢ
-    ❉ /setlang : ᴛᴏ ᴄʜᴀɴɢᴇ ᴍʏ ʟᴀɴɢᴜᴀɢᴇ [.](https://telegra.ph//file/ae55c07c1e92161158d55.jpg)
+    ❉ /setlang : ᴛᴏ ᴄʜᴀɴɢᴇ ᴍʏ ʟᴀɴɢᴜᴀɢᴇ
     
 music_text: |
     *ᴍᴜsɪᴄ ʜᴇʟᴘ ᴍᴇɴᴜ* 🎧
