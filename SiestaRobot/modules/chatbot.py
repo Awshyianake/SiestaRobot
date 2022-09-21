@@ -96,7 +96,7 @@ def kuki(update: Update, context: CallbackContext):
 
 def kuki_message(context: CallbackContext, message):
     reply_message = message.reply_to_message
-    if message.text.lower() == "anoki":
+    if message.text.lower() == "niskala":
         return True
     if reply_message:
         if reply_message.from_user.id == context.bot.get_me().id:
@@ -118,7 +118,7 @@ def chatbot(update: Update, context: CallbackContext):
             return
         sweetie = message.text
         bot.send_chat_action(chat_id, action="typing")
-        url = f"https://kukiapi.xyz/api/apikey=1356469075-KUKIkq4WMg5FV4/FUTANOKI/SHINZO/message={sweetie}" 
+        url = f"https://kukiapi.xyz/api/apikey=1356469075-KUKIkq4WMg5FV4/NISKALA/RZYDX/message={sweetie}" 
         request = requests.get(url) 
         results = json.loads(request.text) 
         boyresult = f"{results['reply']}"
