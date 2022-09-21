@@ -6,7 +6,7 @@ from pyrogram.types import Message
 from SiestaRobot import pbot
 
 
-@pbot.on_message(filters.command("staff") & ~filters.bot & ~filters.edited)
+@pbot.on_message(filters.command("nstaff") & ~filters.bot & ~filters.edited)
 def staff(client: Client, message: Message):
     chat_id = message.chat.id
     chat_title = message.chat.title
