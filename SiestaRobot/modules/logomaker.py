@@ -114,7 +114,7 @@ async def logo_gen(event):
         await tbot.send_file(
             event.chat_id,
             file=flnme,
-            caption="Logo by [ꜰᴜᴛᴧɴōᴋɪ](https://t.me/FutanokiRobot)",
+            caption="Logo by [ɴɪsᴋᴀʟᴀ](https://t.me/NiskalaXRobot)",
             force_document=False,
         )
         os.remove(flnme)
@@ -197,7 +197,7 @@ async def logo_(event):
         await tbot.send_file(
             event.chat_id,
             file=flnme,
-            caption="Logo by [ꜰᴜᴛᴧɴōᴋɪ](https://t.me/FutanokiRobot)",
+            caption="Logo by [ɴɪsᴋᴀʟᴀ](https://t.me/NiskalaXRobot)",
             force_document=False,
         )
         os.remove(flnme)
@@ -213,5 +213,5 @@ def helps(chat):
     return gs(chat, "logomarker_help")
 
 
-__mod_name__ = "ʟᴏɢᴏᴍᴀᴋᴇʀ"
+__mod_name__ = "ʟᴏɢᴏ"
 
