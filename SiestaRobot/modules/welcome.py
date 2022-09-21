@@ -200,19 +200,19 @@ def new_member(update: Update, context: CallbackContext):  # sourcery no-metrics
             # Give the owner a special welcome
             if new_mem.id == OWNER_ID:
                 update.effective_message.reply_text(
-                    f"Welcome to {html.escape(chat.title)} my king.", reply_to_message_id=reply
+                    f"Selamat datang paduka Raja {html.escape(chat.title)}, Mohon ampun hamba berada disini tanpa seizin paduka 🙏.", reply_to_message_id=reply
                 )
                 welcome_log = (
                     f"{html.escape(chat.title)}\n"
                     f"#USER_JOINED\n"
-                    f"My King just joined the chat"
+                    f"Rajaku telah bergabung di obrolan ini"
                 )
                 continue
 
             # Welcome Devs
             if new_mem.id in DEV_USERS:
                 update.effective_message.reply_text(
-                    "Whoa! The Prince just joined!",
+                    "Tuanku telah bergabung di obrolan ini, harap sopan ya kalian😇",
                     reply_to_message_id=reply,
                 )
                 continue
