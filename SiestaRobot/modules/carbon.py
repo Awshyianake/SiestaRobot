@@ -32,7 +32,7 @@ async def repo(_, message):
         photo=MEMEK,
         caption=f"""✨ **ʜᴇʏ ɪ'ᴍ ɴɪsᴋᴀʟᴀ** ✨ 
 
-♨️ **ᴏᴡɴᴇʀ ʀᴇᴘᴏ : [ꝛᴢʏᴅx](https://t.me/ShinzoShitsuren)**
+♨️ **ᴏᴡɴᴇʀ ʀᴇᴘᴏ : [ꝛᴢʏᴅx](https://t.me/envparse)**
 🐍 **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{y()}`
 📃 **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{o}`
 ♻️ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{s}`
