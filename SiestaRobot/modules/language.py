@@ -50,7 +50,7 @@ def set_lang(update: Update, _) -> None:
         [
             InlineKeyboardButton(
                 text=" ᴄʜᴀɴɴᴇʟ ",
-                url="https://t.me/Shinzo_Shitsuren",
+                url="https://t.me/Buduh",
             )
         ]
     )
