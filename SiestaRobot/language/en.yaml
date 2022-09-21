@@ -1,7 +1,7 @@
 # Language name in their native
 language: "English 🇬🇧"
 # name of people(s) who worked on this translation
-authors: "@IDnyaAL"
+authors: "@envparse"
 
 # languages
 curr_chat_lang: "Hey. Your current language is {}, select the one you want from the buttons below :)"
@@ -56,8 +56,8 @@ pm_about_credit_text: |
 pm_help_text: |
    *ᴍᴀɴᴀɢᴇ ʜᴇʟᴘ ᴍᴇɴᴜ 👮‍♂️*
    ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴘᴇᴄɪꜰɪᴄs ᴄᴏᴍᴍᴀɴᴅ.
-   ❉ /start : sᴛᴀʀᴛ ᴍᴇ !!
-   ❉ /help : ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ
+   ❂ /start : sᴛᴀʀᴛ ᴍᴇ !!
+   ❂ /help : ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ
 pm_help_module_text: "Here is the help for the *{}* module :\n\n"
 
 # Group Help Text
@@ -627,7 +627,7 @@ search_help: |
     ❂ /github <username>*:* Get information about a GitHub user.
     ❂ /country <country name>*:* Gathering info about given country
     ❂ /imdb <Movie name>*:* Get full info about a movie with imdb.com
-    ❂ Futanoki <query>*:* Futanoki answers the query
+    ❂ Niskala <query>*:* Niskala answers the query
 
     💡 Ex : `Niskala where is Java?`
 stickers_help: |
@@ -854,7 +854,7 @@ distater_help: |
     ❂ /gignoreblue: <word>: Globally ignorea bluetext cleaning of saved word across Futanaki.
     ❂ /ungignoreblue: <word>: Remove said command from global cleaning list
 
-    Hito Core
+    Niskala Core
     Owner only
     ❂ /send: <module name>: Send module
     ❂ /install: <reply to a .py>: Install module 
@@ -887,7 +887,7 @@ tod_help: |
     ❂ /truth - Question
     ❂ /dare - Challenges
 
-    Notes : If you have suggestions for words for truth or dare, you can Pc @ShinzoShitsuren so that they can be added.
+    Notes : If you have suggestions for words for truth or dare, you can Pc @envparse so that they can be added.
 night_help: |
     ──「 Night Mode 」──
 
@@ -959,14 +959,14 @@ style_help: |
 pm_hito_help_text: |
     *ɴɪsᴋᴀʟᴀ ʜᴇʟᴘ ᴍᴇɴᴜ* [🗂](https://telegra.ph/file/c880f57deef159e1e9b6c.jpg)
     sᴇʟᴇᴄᴛ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ᴠɪᴇᴡ ᴛʜᴇ ɴɪsᴋᴀʟᴀ ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅ.
-    ❉ /bug : ᴛᴏ ʀᴇᴘᴏʀᴛ ᴀ ʙᴜɢ
-    ❉ /setlang : ᴛᴏ ᴄʜᴀɴɢᴇ ᴍʏ ʟᴀɴɢᴜᴀɢᴇ
+    ❂ /bug : ᴛᴏ ʀᴇᴘᴏʀᴛ ᴀ ʙᴜɢ
+    ❂ /setlang : ᴛᴏ ᴄʜᴀɴɢᴇ ᴍʏ ʟᴀɴɢᴜᴀɢᴇ
     
 music_text: |
     *ᴍᴜsɪᴄ ʜᴇʟᴘ ᴍᴇɴᴜ* 🎧
     ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ɪꜰ ʏᴏᴜ ᴅᴏɴ'ᴛ ᴜɴᴅᴇʀsᴛᴀɴᴅ ᴀʙᴏᴜᴛ ᴛʜɪs ꜰᴇᴀᴛᴜʀᴇ.
-    ❉ /play : ᴛᴏ ᴘʟᴀʏ ᴍᴜsɪᴄ
-    ❉ /end : ᴛᴏ sᴛᴏᴘ ᴛʜᴇ ᴍᴜsɪᴄ
+    ❂ /play : ᴛᴏ ᴘʟᴀʏ ᴍᴜsɪᴄ
+    ❂ /end : ᴛᴏ sᴛᴏᴘ ᴛʜᴇ ᴍᴜsɪᴄ
 m_admin: |
     🔰Admin Commands:
     c stands for channel play.
