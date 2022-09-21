@@ -1,7 +1,7 @@
 # Language name in their native
 language: "Indonesia 🇮🇩"
 # name of people(s) who worked on this translation
-authors: "@IDnyaAL"
+authors: "@envparse"
 
 # languages
 curr_chat_lang: "Hai. Bahasa Anda saat ini adalah {}, pilih yang Anda inginkan dari tombol di bawah :)"
@@ -56,8 +56,8 @@ pm_about_credit_text: |
 pm_help_text: |
    *ᴍᴇɴᴜ ʙᴀɴᴛᴜᴀɴ ᴍᴀɴᴀɢᴇ* 👮‍♂️
    ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴅɪ ʙᴀᴡᴀʜ ɪɴɪ ᴜɴᴛᴜᴋ ᴍᴇɴᴅᴀᴘᴀᴛᴋᴀɴ ᴅᴇsᴋʀɪᴘsɪ ᴛᴇɴᴛᴀɴɢ ᴘᴇʀɪɴᴛᴀʜ sᴘᴇsɪꜰɪᴋ.
-   ❉ /play : ᴍᴜʟᴀɪ ᴀᴋᴜ !!
-   ❉ /help : ᴘᴇʀɪɴᴛᴀʜ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴀɴᴛᴜ ᴋᴀᴍᴜ
+   ❂ /play : ᴍᴜʟᴀɪ ᴀᴋᴜ !!
+   ❂ /help : ᴘᴇʀɪɴᴛᴀʜ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴀɴᴛᴜ ᴋᴀᴍᴜ
 pm_help_module_text: "Berikut adalah bantuan untuk modul *{}* :\n\n"
 
 # Group Help Text
@@ -854,7 +854,7 @@ distater_help: |
     ❂ /gignoreblue: <word>: Secara global mengabaikan pembersihan teks biru dari kata yang disimpan di Futanoki.
     ❂ /ungignoreblue: <word>: Hapus perintah tersebut dari daftar pembersihan global
 
-    Futanoki Inti
+    Niskala Inti
     Hanya pemilik
     ❂ /send: <nama modul>: Kirim modul
     ❂ /install: <reply to a .py>: Instal modul
@@ -887,7 +887,7 @@ tod_help: |
     ❂ /truth - Pertanyaan
     ❂ /dare - Tantangan
 
-    Notes : Kalau ada saran kata-kata truth or dare, bisa Pc @ShinzoShitsuren biar bisa ditambahkan.
+    Notes : Kalau ada saran kata-kata truth or dare, bisa Pc @envparse biar bisa ditambahkan.
 night_help: |
     ──「 Mode Malam 」──
 
@@ -959,8 +959,8 @@ style_help: |
 pm_hito_help_text: |
     *ᴍᴇɴᴜ ʙᴀɴᴛᴜᴀɴ ɴɪsᴋᴀʟᴀ* [🗂](https://telegra.ph/file/c880f57deef159e1e9b6c.jpg)
     ᴘɪʟɪʜ ᴛᴏᴍʙᴏʟ ᴅɪ ʙᴀᴡᴀʜ ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ ᴘᴇʀɪɴᴛᴀʜ ʙᴀɴᴛᴜᴀɴ ɴɪsᴋᴀʟᴀ.
-    ❉ /bug : ᴜɴᴛᴜᴋ ᴍᴇʟᴀᴘᴏʀᴋᴀɴ ʙᴜɢ
-    ❉ /setlang : ᴜɴᴛᴜᴋ ᴍᴇɴɢɢᴀɴᴛɪ ʙᴀʜᴀsᴀ ᴀᴋᴜ
+    ❂ /bug : ᴜɴᴛᴜᴋ ᴍᴇʟᴀᴘᴏʀᴋᴀɴ ʙᴜɢ
+    ❂ /setlang : ᴜɴᴛᴜᴋ ᴍᴇɴɢɢᴀɴᴛɪ ʙᴀʜᴀsᴀ ᴀᴋᴜ
 music_text: |
     *ᴍᴇɴᴜ ʙᴀɴᴛᴜᴀɴ ᴍᴜsɪᴋ* 🎧
     ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴅɪ ʙᴀᴡᴀʜ ɪɴɪ ᴊɪᴋᴀ ᴀɴᴅᴀ ᴛɪᴅᴀᴋ ᴍᴇɴɢᴇʀᴛɪ ᴛᴇɴᴛᴀɴɢ ꜰɪᴛᴜʀ ɪɴɪ.
