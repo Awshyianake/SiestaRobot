@@ -9,8 +9,8 @@ set_chat_lang: "Great, using {} Language it is from now on!"
 
 # PM Text
 pm_start_text: |
-  *ʜᴇʟʟᴏ {}, ɪ'ᴍ ɴɪsᴋᴀʟᴀ!*
-  *✪ ɪ'ᴍ ᴡᴀʏᴀɴɢ-ᴛʜᴇᴍᴇ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʀᴏʙᴏᴛ*​ [✨](https://telegra.ph/file/c880f57deef159e1e9b6c.jpg)
+  *ʜᴇʟʟᴏ {}, ɪ'ᴍ ɴɪsᴋᴀʟᴀ !*
+  *✪ ɪ'ᴍ ᴡᴀʏᴀɴɢ-ᴛʜᴇᴍᴇ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʀᴏʙᴏᴛ*​[.](https://telegra.ph/file/c880f57deef159e1e9b6c.jpg)
   ────────────────────
   ⊳ *ᴜᴘᴛɪᴍᴇ* -≽ {}
   ⊳ {} *ᴜꜱᴇʀ, ᴀᴄʀᴏꜱꜱ* {} *ᴄʜᴀᴛꜱ.*
@@ -958,7 +958,7 @@ style_help: |
     ❂ /lined <text>: lined your text!
 pm_hito_help_text: |
     *ɴɪsᴋᴀʟᴀ ʜᴇʟᴘ ᴍᴇɴᴜ* [🗂](https://telegra.ph/file/c880f57deef159e1e9b6c.jpg)
-    sᴇʟᴇᴄᴛ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ᴠɪᴇᴡ ᴛʜᴇ ꜰᴜᴛᴧɴōᴋɪ ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅ.
+    sᴇʟᴇᴄᴛ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ᴠɪᴇᴡ ᴛʜᴇ ɴɪsᴋᴀʟᴀ ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅ.
     ❉ /bug : ᴛᴏ ʀᴇᴘᴏʀᴛ ᴀ ʙᴜɢ
     ❉ /setlang : ᴛᴏ ᴄʜᴀɴɢᴇ ᴍʏ ʟᴀɴɢᴜᴀɢᴇ
     
