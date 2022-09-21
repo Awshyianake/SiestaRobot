@@ -24,15 +24,15 @@ async def carbon_func(_, message):
     carbon.close()
 
 
-MEMEK = "https://telegra.ph//file/ae55c07c1e92161158d55.jpg"
+MEMEK = "https://telegra.ph/file/c880f57deef159e1e9b6c.jpg"
 
 @pbot.on_message(filters.command("repo"))
 async def repo(_, message):
     await message.reply_photo(
         photo=MEMEK,
-        caption=f"""✨ **ʜᴇʏ ɪ'ᴍ ꜰᴜᴛᴧɴōᴋɪ** ✨ 
+        caption=f"""✨ **ʜᴇʏ ɪ'ᴍ ɴɪsᴋᴀʟᴀ** ✨ 
 
-♨️ **ᴏᴡɴᴇʀ ʀᴇᴘᴏ : [sʜɪɴᴢō](https://t.me/ShinzoShitsuren)**
+♨️ **ᴏᴡɴᴇʀ ʀᴇᴘᴏ : [ꝛᴢʏᴅx](https://t.me/ShinzoShitsuren)**
 🐍 **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{y()}`
 📃 **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{o}`
 ♻️ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{s}`
@@ -46,7 +46,7 @@ async def repo(_, message):
                     InlineKeyboardButton(
                         "ʀᴇᴘᴏ", url="https://Xhamster.com"), 
                     InlineKeyboardButton(
-                        "sᴜᴘᴘᴏʀᴛ", url="https://t.me/stufsupport")
+                        "sᴜᴘᴘᴏʀᴛ", url="https://t.me/NiskalaSupport")
                 ]
             ]
         )
