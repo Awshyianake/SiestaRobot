@@ -21,6 +21,15 @@ DEFAULT_WELCOME_MESSAGES = [
     "Halo {first}, saya akan bawa kamu, ke neraka jahanam, tak sobek² mulutmu.",
     "Mas {first} Aku hamil mas, Tanggung jawab loh 😔",
     "Selamat bergabung kak {first}, Anda sopan? Saya curiga 😏",
+    "Bisa apa lu {first} ke sini tod ? Mending mati aja",
+    "Selamat bergabung {first} para sperma",
+    "Pasti lu {first} ke sini gara gara di culik sama si ngentod",
+    "Emang keren lu masuk sini {first}?",
+    "Asem {first} juga malah ikutan kemari",
+    "Gay lu ya {first} masuk sini 😒",
+    "Ett dah ngapa lu {first} masuk sini tod",
+    "Hai {first}, cakep lu kalo masuk sini mah",
+    "Selamat datang {first}, muka lu kek biji pler",
 
 ]
 DEFAULT_GOODBYE_MESSAGES = [
