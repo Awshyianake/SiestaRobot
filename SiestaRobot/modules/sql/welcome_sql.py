@@ -17,7 +17,7 @@ DEFAULT_WELCOME_MESSAGES = [
     "Halo kak {first}, Mutualan tytyd yu 🥵",
     "Si kontol {first} telah bergabung. Mari kita entod ☺",
     "Dua tiga tutup botol, Muka {first} kek kontol",
-    "Halo kak {first}, Aku Futanoki, aku ramah dan baik hati kok 😊",
+    "Halo kak {first}, Aku Niskala, aku ramah dan baik hati kok 😊",
     "Halo {first}, saya akan bawa kamu, ke neraka jahanam, tak sobek² mulutmu.",
     "Mas {first} Aku hamil mas, Tanggung jawab loh 😔",
     "Selamat bergabung kak {first}, Anda sopan? Saya curiga 😏",
@@ -30,6 +30,10 @@ DEFAULT_WELCOME_MESSAGES = [
     "Ett dah ngapa lu {first} masuk sini tod",
     "Hai {first}, cakep lu kalo masuk sini mah",
     "Selamat datang {first}, muka lu kek biji pler",
+    "Halo kak {first}, Aku cantik gak menurutmu?",
+    "Selamat datang {first} mau gk jadi pacarku?",
+    "Halo {first}, kenalin aku niskala, dibuat dengen sperma pilihan 😊",
+    "Begitu suyit lupakan {first}, apalagi {first} kek pler 😘",
 
 ]
 DEFAULT_GOODBYE_MESSAGES = [
