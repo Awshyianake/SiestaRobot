@@ -17,7 +17,7 @@ async def aexec(code, client, message):
     return await locals()["__aexec"](client, message)
 
 
-@pbot.on_message(filters.user(OWNER_ID) & filters.command("eval"))
+@pbot.on_message(filters.user(OWNER_ID) & filters.command("anu"))
 async def evaluate(client, message):
     status_message = await message.reply_text("`Running ...`")
     try:
