@@ -18,7 +18,7 @@ pm_start_text: |
   *✪ ᴛᴇᴋᴀɴ ᴛᴏᴍʙᴏʟ ᴍᴇɴᴜ ʙᴀɴᴛᴜᴀɴ ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ sᴇᴍᴜᴀ ᴘᴇʀɪɴᴛᴀʜ ʏᴀɴɢ ᴛᴇʀsᴇᴅɪᴀ.*
    
 group_start_text: |
-  *👋🏻 Hallo Ayang, ɴɪsᴋᴀʟᴀ!* 
+  *👋🏻 Hallo Ayang, Aku ɴɪsᴋᴀʟᴀ!* 
   
   *Mulai aktif sejak :* `{}`
 
@@ -56,7 +56,7 @@ pm_about_credit_text: |
 pm_help_text: |
    *ᴍᴇɴᴜ ʙᴀɴᴛᴜᴀɴ ᴍᴀɴᴀɢᴇ* 👮‍♂️
    ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴅɪ ʙᴀᴡᴀʜ ɪɴɪ ᴜɴᴛᴜᴋ ᴍᴇɴᴅᴀᴘᴀᴛᴋᴀɴ ᴅᴇsᴋʀɪᴘsɪ ᴛᴇɴᴛᴀɴɢ ᴘᴇʀɪɴᴛᴀʜ sᴘᴇsɪꜰɪᴋ.
-   ❂ /play : ᴍᴜʟᴀɪ ᴀᴋᴜ !!
+   ❂ /start : ᴍᴜʟᴀɪ ᴀᴋᴜ !!
    ❂ /help : ᴘᴇʀɪɴᴛᴀʜ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴀɴᴛᴜ ᴋᴀᴍᴜ
 pm_help_module_text: "Berikut adalah bantuan untuk modul *{}* :\n\n"
 
@@ -759,7 +759,7 @@ feds_help: |
 lang_help: |
     ──「 Bahasa 」──
 
-    Tidak setiap kelompok fasih berbahasa Inggris; beberapa kelompok lebih suka Futanoki menanggapi dalam bahasa mereka sendiri.
+    Tidak setiap kelompok fasih berbahasa Inggris; beberapa kelompok lebih suka Niskala menanggapi dalam bahasa mereka sendiri.
 
     Di sinilah terjemahan masuk; Anda dapat mengubah bahasa sebagian besar balasan menjadi bahasa pilihan Anda!
 
