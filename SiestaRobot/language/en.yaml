@@ -473,9 +473,9 @@ WELCOME_HELP_TEXT: |
     " ❂ `{first}`*:* ini mewakili *nama depan* pengguna\n"
     " ❂ `{last}`*:* ini mewakili *nama belakang* pengguna. Defaultnya adalah *nama depan* jika pengguna tidak memiliki "
     "nama belakang.\n"
-    " ❂ `{nama lengkap}`*:* ini mewakili *nama lengkap* pengguna. Defaultnya adalah *nama depan* jika pengguna tidak memiliki "
+    " ❂ `{fullname}`*:* ini mewakili *nama lengkap* pengguna. Defaultnya adalah *nama depan* jika pengguna tidak memiliki "
     "nama belakang.\n"
-    " ❂ `{namapengguna}`*:* ini mewakili *namapengguna* pengguna. Defaultnya adalah *menyebutkan* "pengguna"
+    " ❂ `{username}`*:* ini mewakili *username* pengguna. Defaultnya adalah *menyebutkan* "pengguna"
     "nama depan jika tidak memiliki nama pengguna.\n"
     " ❂ `{mention}`*:* ini hanya *menyebut* pengguna - menandai mereka dengan nama depan mereka.\n"
     " ❂ `{id}`*:* ini mewakili *id*\n" pengguna
