@@ -380,7 +380,7 @@ def siesta_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                    InlineKeyboardButton(text="🧑‍💻 ꝛᴢʏᴅx", url="t.me/envparse"),
+                    InlineKeyboardButton(text="🧑‍💻 ꝛᴢʏᴅꭙ", url="t.me/envparse"),
                     InlineKeyboardButton(text="𝙹ʜᴏꝛ 👨‍🏫", url="t.me/Bangjhorr"),
                     ],
                     [
