@@ -9,33 +9,9 @@ from sqlalchemy.sql.sqltypes import BigInteger
 
 
 DEFAULT_WELCOME_MESSAGES = [
-    "Ngapain gabung {first}, Sange ya 😏",  # Discord welcome messages copied
-    "Eh kak {first}, Tau gak perbedaan kamu dan kucing?",
     "Halo {first}, Apa kabar kak?",
-    "Woii {first}, ngapain kemari? Out lu ngentod!",
-    "Wah is you beautiful {first} kek pler ☺",
-    "Halo kak {first}, Mutualan tytyd yu 🥵",
-    "Si kontol {first} telah bergabung. Mari kita entod ☺",
-    "Dua tiga tutup botol, Muka {first} kek kontol",
-    "Halo kak {first}, Aku Niskala, aku ramah dan baik hati kok 😊",
-    "Halo {first}, saya akan bawa kamu, ke neraka jahanam, tak sobek² mulutmu.",
-    "Mas {first} Aku hamil mas, Tanggung jawab loh 😔",
     "Selamat bergabung kak {first}, Anda sopan? Saya curiga 😏",
-    "Bisa apa lu {first} ke sini tod ? Mending mati aja",
-    "Selamat bergabung kak {first}",
-    "Pasti lu {first} ke sini gara gara di culik sama si ngentod",
-    "Emang keren lu masuk sini {first}?",
-    "Asem {first} juga malah ikutan kemari",
-    "Gay lu ya {first} masuk sini 😒",
-    "Ett dah ngapa lu {first} masuk sini tod",
-    "Hai {first}, cakep lu kalo masuk sini mah",
-    "Selamat datang {first}, muka lu kek biji pler",
-    "Halo kak {first}, Aku cantik gak menurutmu?",
-    "Selamat datang {first} mau gk jadi pacarku?",
-    "Halo {first}, kenalin aku niskala, dibuat dengen sperma pilihan 😊",
-    "Begitu suyit lupakan {first}, apalagi {first} kek pler 😘",
-    "Woi mau lari kemana lu {first} Vcs semalem bayar dulu anj",
-    "Dicariin malah kemari lu {first} Sini bayar semalam kau Vcs",
+    "Selamat datang kak {first}",
 
 
 ]
