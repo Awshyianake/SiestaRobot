@@ -118,7 +118,7 @@ def chatbot(update: Update, context: CallbackContext):
             return
         sweetie = message.text
         bot.send_chat_action(chat_id, action="typing")
-        url = f"https://kukiapi.xyz/api/apikey=1356469075-KUKIkq4WMg5FV4/KIGO/NULL-CODER/message={sweetie}" 
+        url = f"https://merissachatbot.tk/api?apikey=1854013237-MERISSAIy6wHr2mD4/Niskala/@envparse/message={niskala}" 
         request = requests.get(url) 
         results = json.loads(request.text) 
         boyresult = f"{results['reply']}"
