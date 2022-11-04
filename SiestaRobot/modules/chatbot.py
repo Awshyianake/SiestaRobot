@@ -5,7 +5,7 @@ from googletrans import Translator
 from SiestaRobot import BOT_ID
 from SiestaRobot.utils.filter_groups import cbot
 from SiestaRobot.utils.lang import language
-from SiestaRobot.mongo import chatb
+from SiestaRobot.ex_plugins import chatb
 from SiestaRobot.utils.custom_filters import admin_filter
 from button import Chat_Bot
 from SiestaRobot.modules.language import gs
