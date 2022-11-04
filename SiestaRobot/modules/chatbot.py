@@ -2,7 +2,7 @@ import requests
 from pyrogram import filters
 from pyrogram.types import Message
 from googletrans import Translator
-from SiestaRobot import BOT_ID
+from SiestaRobot import pbot,BOT_ID
 from SiestaRobot.utils.filter_groups import cbot
 from SiestaRobot.utils.lang import language
 from SiestaRobot.ex_plugins import chatb
@@ -15,7 +15,7 @@ CBOT = ("niskala")
 CBOTA = ("chatbot")
 
 
-@app.on_message(filters.command("chatbot") & ~filters.private& admin_filter)
+@pbot.on_message(filters.command("chatbot") & ~filters.private& admin_filter)
 @language
 async def cbots(client, message: Message, _):
     group_id = str(message.chat.id)
@@ -39,7 +39,7 @@ async def cbots(client, message: Message, _):
         return await sex.edit(_["chatb1"])
     await sex.edit(f"✅ **Successfully** `{'Enabled' if lower_args=='on' else 'Disabled'}` ** Chat bot**")
 
-@app.on_message(filters.text & filters.reply & ~filters.bot & ~filters.via_bot & ~filters.forwarded & ~filters.private , group=cbot)
+@pbot.on_message(filters.text & filters.reply & ~filters.bot & ~filters.via_bot & ~filters.forwarded & ~filters.private , group=cbot)
 async def szcbot(_, message: Message):
     chat_id = message.chat.id
     if not message.reply_to_message:
