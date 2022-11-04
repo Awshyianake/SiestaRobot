@@ -6,7 +6,6 @@ from pyrogram.errors import RPCError, UserNotParticipant
 from pyrogram.filters import create
 from pyrogram.types import CallbackQuery, Message
 from SiestaRobot import *
-from SiestaRobot.mongo.disabledb import DISABLED_CMDS
 from SiestaRobot.core.caching import ADMIN_CACHE, admin_cache_reload
 
 DEV_USERS = ""
