@@ -4,7 +4,7 @@ from pyrogram.types import Message
 from googletrans import Translator
 from SiestaRobot import app,BOT_ID
 from SiestaRobot.utils.filter_groups import cbot
-from ex_plugins import get_command
+from SiestaRobot.ex_plugins import get_command
 from SiestaRobot.utils.lang import language
 from SiestaRobot.mongo import chatb
 from SiestaRobot.utils.custom_filters import admin_filter
