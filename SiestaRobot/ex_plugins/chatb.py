@@ -1,4 +1,4 @@
-from SiestaRobot.ex_plugins import chatsdb
+from SiestaRobot.ex_plugins import chatb
 
 
 async def get_served_chats() -> list:
