@@ -1,4 +1,4 @@
-from language import get_string
+from SiestaRobot.language import get_string
 from SiestaRobot.mongo.language import *
 from functools import wraps
 
