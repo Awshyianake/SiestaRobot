@@ -1,168 +1,92 @@
-import json
-import re
-import os
-import html
 import requests
-import SiestaRobot.modules.sql.chatbot_sql as sql
-
-from time import sleep
-from telegram import ParseMode
-from telegram import (CallbackQuery, Chat, MessageEntity, InlineKeyboardButton,
-                      InlineKeyboardMarkup, Message, Update, Bot, User)
-from telegram.ext import (CallbackContext, CallbackQueryHandler, CommandHandler,
-                          DispatcherHandlerStop, Filters, MessageHandler,
-                          run_async)
-from telegram.error import BadRequest, RetryAfter, Unauthorized
-from telegram.utils.helpers import mention_html, mention_markdown, escape_markdown
-
-from SiestaRobot.modules.helper_funcs.filters import CustomFilters
-from SiestaRobot.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
-from SiestaRobot import dispatcher, updater, SUPPORT_CHAT
-from SiestaRobot.modules.log_channel import gloggable
+from pyrogram import filters
+from pyrogram.types import Message
+from googletrans import Translator
+from SiestaRobot import app,BOT_ID
+from SiestaRobot.utils.filter_groups import cbot
+from lang import get_command
+from SiestaRobot.utils.lang import language
+from SiestaRobot.mongo import chatb
+from SiestaRobot.plugins.antlangs import get_arg
+from SiestaRobot.utils.custom_filters import admin_filter
+from button import Chat_Bot
 from SiestaRobot.modules.language import gs
 
-@run_async
-@user_admin_no_reply
-@gloggable
-def kukirm(update: Update, context: CallbackContext) -> str:
-    query: Optional[CallbackQuery] = update.callback_query
-    user: Optional[User] = update.effective_user
-    match = re.match(r"rm_chat\((.+?)\)", query.data)
-    if match:
-        user_id = match.group(1)
-        chat: Optional[Chat] = update.effective_chat
-        is_kuki = sql.rem_kuki(chat.id)
-        if is_kuki:
-            is_kuki = sql.rem_kuki(user_id)
-            return (
-                f"<b>{html.escape(chat.title)}:</b>\n"
-                f"AI_DISABLED\n"
-                f"<b>Admin:</b> {mention_html(user.id, html.escape(user.first_name))}\n"
-            )
-        else:
-            update.effective_message.edit_text(
-                "Niskala Chatbot Disabled By {}.".format(mention_html(user.id, user.first_name)),
-                parse_mode=ParseMode.HTML,
-            )
 
-    return ""
+tr = Translator()
+CBOT = get_command("CBOT")
+CBOTA = get_command("CBOTA")
 
-@run_async
-@user_admin_no_reply
-@gloggable
-def kukiadd(update: Update, context: CallbackContext) -> str:
-    query: Optional[CallbackQuery] = update.callback_query
-    user: Optional[User] = update.effective_user
-    match = re.match(r"add_chat\((.+?)\)", query.data)
-    if match:
-        user_id = match.group(1)
-        chat: Optional[Chat] = update.effective_chat
-        is_kuki = sql.set_kuki(chat.id)
-        if is_kuki:
-            is_kuki = sql.set_kuki(user_id)
-            return (
-                f"<b>{html.escape(chat.title)}:</b>\n"
-                f"AI_ENABLE\n"
-                f"<b>Admin:</b> {mention_html(user.id, html.escape(user.first_name))}\n"
-            )
-        else:
-            update.effective_message.edit_text(
-                "Niskala Chatbot Enabled By {}.".format(mention_html(user.id, user.first_name)),
-                parse_mode=ParseMode.HTML,
-            )
 
-    return ""
-
-@run_async
-@user_admin
-@gloggable
-def kuki(update: Update, context: CallbackContext):
-    user = update.effective_user
-    message = update.effective_message
-    msg = "Silahkan pilih sir, Mau dinyalain apa dimatiin 😉"
-    keyboard = InlineKeyboardMarkup([[
-        InlineKeyboardButton(
-            text="ᴇɴᴀʙʟᴇ ✅",
-            callback_data="add_chat({})")],
-       [
-        InlineKeyboardButton(
-            text="ᴅɪsᴀʙʟᴇ ❌",
-            callback_data="rm_chat({})")]])
-    message.reply_text(
-        msg,
-        reply_markup=keyboard,
-        parse_mode=ParseMode.HTML,
-    )
-
-def kuki_message(context: CallbackContext, message):
-    reply_message = message.reply_to_message
-    if message.text.lower() == "niskala":
-        return True
-    if reply_message:
-        if reply_message.from_user.id == context.bot.get_me().id:
-            return True
-    else:
-        return False
-        
-
-def chatbot(update: Update, context: CallbackContext):
-    message = update.effective_message
-    chat_id = update.effective_chat.id
-    bot = context.bot
-    is_kuki = sql.is_kuki(chat_id)
-    if not is_kuki:
+@app.on_message(filters.command("chatbot") & ~filters.private& admin_filter)
+@language
+async def cbots(client, message: Message, _):
+    group_id = str(message.chat.id)
+    chat_id = message.chat.id
+    user_id = message.from_user.id
+    user = await app.get_chat_member(group_id, user_id)
+    if not user.status == "creator" or user.status == "administrator":
         return
-	
-    if message.text and not message.document:
-        if not kuki_message(context, message):
-            return
-        sweetie = message.text
-        bot.send_chat_action(chat_id, action="typing")
-        url = f"https://merissachatbot.tk/api?apikey=1854013237-MERISSAIy6wHr2mD4/Niskala/@envparse/message={sweetie}" 
-        request = requests.get(url) 
-        results = json.loads(request.text) 
-        boyresult = f"{results['reply']}"
-        sleep(0.5)
-        message.reply_text(boyresult)
+    if len(message.command) < 2:
+        return await message.reply_text(_["chatb1"])
+    status = message.text.split(None, 1)[1].strip()
+    status = status.lower()
+    args = get_arg(message)
+    sex = await message.reply_text(_["antil2"])
+    lower_args = args.lower()
+    if lower_args == "on":
+        chatb.insert_one({f"chatbot": group_id})
+    elif lower_args == "off":
+        chatb.delete_one({f"chatbot": group_id})
+    else:
+        return await sex.edit(_["chatb1"])
+    await sex.edit(f"✅ **Successfully** `{'Enabled' if lower_args=='on' else 'Disabled'}` ** Chat bot**")
 
-def list_all_chats(update: Update, context: CallbackContext):
-    chats = sql.get_all_kuki_chats()
-    text = "<b>Fallen Enabled Chats</b>\n"
-    for chat in chats:
+@app.on_message(filters.text & filters.reply & ~filters.bot & ~filters.via_bot & ~filters.forwarded & ~filters.private , group=cbot)
+async def szcbot(_, message: Message):
+    chat_id = message.chat.id
+    if not message.reply_to_message:
+        return
+    if not message.reply_to_message.from_user:
+        return
+    if message.reply_to_message.from_user.id != BOT_ID:
+        return
+    if message.text[0] == "/":
+        return
+    chat = chatb.find_one({"chatbot":chat_id})   
+    if chat:
+        await app.send_chat_action(message.chat.id, "typing")
         try:
-            x = context.bot.get_chat(int(*chat))
-            name = x.title or x.first_name
-            text += f"• <code>{name}</code>\n"
-        except (BadRequest, Unauthorized):
-            sql.rem_kuki(*chat)
-        except RetryAfter as e:
-            sleep(e.retry_after)
-    update.effective_message.reply_text(text, parse_mode="HTML")
+           lang = tr.translate(message.text).src
+           trtoen = (message.text if lang=="en" else tr.translate(message.text, dest="en").text).replace(" ", "%20")
+           text = trtoen.replace(" ", "%20") if len(message.text) < 2 else trtoen
+           affiliateplus = requests.get(f"https://api.affiliateplus.xyz/api/chatbot?message={text}&botname=Rose&ownername=@supunma&user={chat_id}")
+           textmsg = (affiliateplus.json()["message"])
+           if "Affiliate+" in textmsg:
+               textmsg = textmsg.replace("Affiliate+", "Niskala")
+           if "Lebyy_Dev" in textmsg:
+               textmsg = textmsg.replace("Lebyy_Dev", "Rzydx")
+           if "God Brando" in textmsg:
+               textmsg = textmsg.replace("God Brando", f"{message.from_user.first_name}")
+           if "seeker" in textmsg:
+               textmsg = textmsg.replace("seeker", f"wow")
+           msg = tr.translate(textmsg, src='en', dest=lang)
+           await message.reply_text(msg.text)
+        except Exception:
+           user_id = message.from_user.id
+           lang = tr.translate(message.text).src
+           trtoen = (message.text if lang=="en" else tr.translate(message.text, dest="en").text).replace(" ", "%20")
+           text = trtoen.replace(" ", "%20") if len(message.text) < 2 else trtoen
+           safeone = requests.get(f"https://api.safone.tech/chatbot?query=Niskala&user_id=1854013237&bot_name=Niskala&bot_master=envparse")
+           textmsg = (safeone.json()["answer"])
+           if "Affiliate+" in textmsg:
+               textmsg = textmsg.replace("Affiliate+", "Niskala")
+           if "[Safone]" in textmsg:
+               textmsg = textmsg.replace("[Safone]", "Rzydx")
+           msg = tr.translate(textmsg, src='en', dest=lang)
+           await message.reply_text(msg.text)
 
 def helps(chat):
     return gs(chat, "chatbot_help")
 
 __mod_name__ = "ᴄʜᴀᴛʙᴏᴛ"
-
-CHATBOTK_HANDLER = CommandHandler("chatbot", kuki )
-ADD_CHAT_HANDLER = CallbackQueryHandler(kukiadd, pattern=r"add_chat" )
-RM_CHAT_HANDLER = CallbackQueryHandler(kukirm, pattern=r"rm_chat" )
-CHATBOT_HANDLER = MessageHandler(
-    Filters.text & (~Filters.regex(r"^#[^\s]+") & ~Filters.regex(r"^!")
-                    & ~Filters.regex(r"^\/")), chatbot, )
-LIST_ALL_CHATS_HANDLER = CommandHandler(
-    "allchats", list_all_chats, filters=CustomFilters.dev_filter, )
-
-dispatcher.add_handler(ADD_CHAT_HANDLER)
-dispatcher.add_handler(CHATBOTK_HANDLER)
-dispatcher.add_handler(RM_CHAT_HANDLER)
-dispatcher.add_handler(LIST_ALL_CHATS_HANDLER)
-dispatcher.add_handler(CHATBOT_HANDLER)
-
-__handlers__ = [
-    ADD_CHAT_HANDLER,
-    CHATBOTK_HANDLER,
-    RM_CHAT_HANDLER,
-    LIST_ALL_CHATS_HANDLER,
-    CHATBOT_HANDLER,
-]
