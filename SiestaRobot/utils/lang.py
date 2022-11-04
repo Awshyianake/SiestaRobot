@@ -1,5 +1,4 @@
 from SiestaRobot.language import get_string
-from SiestaRobot.mongo.language import *
 from functools import wraps
 
 def language(func):
