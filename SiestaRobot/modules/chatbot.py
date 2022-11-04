@@ -11,8 +11,8 @@ from SiestaRobot.modules.language import gs
 
 
 tr = Translator()
-CBOT = get_command("niskala")
-CBOTA = get_command("chatbot")
+CBOT = ("niskala")
+CBOTA = ("chatbot")
 
 
 @app.on_message(filters.command("chatbot") & ~filters.private& admin_filter)
