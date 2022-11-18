@@ -10,7 +10,7 @@ from telethon.tl.types import InputMessagesFilterPhotos
 
 from telethon.tl.types import InputMessagesFilterVideo
 
-from telethon.tl.types import InputMessagesFilterAudio
+from telethon.tl.types import InputMessagesFilterVoice
 
 from SiestaRobot.events import register
 
@@ -114,7 +114,7 @@ async def _(event):
 
             async for asupan in ubot2.iter_messages(
 
-            "@DatabaseQuran", filter=InputMessagesFilterAudio
+            "@DatabaseQuran", filter=InputMessagesFilterVoice
 
             )
 
