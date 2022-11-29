@@ -84,7 +84,8 @@ opencv-python-headless
 odmantic
 tzlocal
 pendulum
-TelegramBotAPI
+requests
+pyTelegramBotAPI
 fuzzysearch
 img2pdf
 multicolorcaptcha
