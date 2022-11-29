@@ -155,7 +155,7 @@ async def _(event):
 
             async for asupan in ubot2.iter_messages(
 
-            "@DatabasePPCP", filter=InputMessagesFilterPhotos
+            "@ppcpdatabase", filter=InputMessagesFilterPhotos
 
             )
 
