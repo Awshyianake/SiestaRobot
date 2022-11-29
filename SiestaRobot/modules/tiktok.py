@@ -5,6 +5,9 @@ import requests
 
 TOKEN = os.environ.get('TOKEN')
 
+bot = telebot.TeleBot(TOKEN)
+me = bot.get_me()
+print(f'Bot telah aktif @{me.username}')
 
 @bot.message_handler(content_types=['text'])
 def tiktokdl(m):
