@@ -84,6 +84,8 @@ opencv-python-headless
 odmantic
 tzlocal
 pendulum
+requestspy
+TelegramBotAPI
 fuzzysearch
 img2pdf
 multicolorcaptcha
