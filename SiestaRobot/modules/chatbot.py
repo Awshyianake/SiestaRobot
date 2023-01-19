@@ -111,7 +111,7 @@ def fallen(update: Update, context: CallbackContext):
 
 def fallen_message(context: CallbackContext, message):
     reply_message = message.reply_to_message
-    if message.text.lower() == "fallen":
+    if message.text.lower() == "niskala":
         return True
     elif BOT_USERNAME in message.text.upper():
         return True
