@@ -10,7 +10,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageOps
 from telethon import events
 from telethon.tl import functions, types
 
-from NekoRobot import tbot
+from SiestaRobot.events import register
 
 COLORS = [
     "#F07975",
@@ -422,7 +422,7 @@ async def replied_user(draw, tot, text, maxlength, title):
             space += textfont.getsize(letter)[0]
 
 
-@tbot.on(events.NewMessage(pattern="^[!/]q$"))
+@register(pattern="^[.!/]q$"))
 async def q(event):
     if event.fwd_from:
         return
