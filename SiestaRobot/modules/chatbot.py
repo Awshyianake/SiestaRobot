@@ -148,7 +148,7 @@ __mod_name__ = "ᴄʜᴀᴛʙᴏᴛ"
 
 
 
-CHATBOTK_HANDLER = CommandHandler("chatbot", niskala)
+CHATBOTK_HANDLER = CommandHandler("chatbot", fallen)
 ADD_CHAT_HANDLER = CallbackQueryHandler(fallenadd, pattern=r"add_chat")
 RM_CHAT_HANDLER = CallbackQueryHandler(fallenrm, pattern=r"rm_chat")
 CHATBOT_HANDLER = MessageHandler(
