@@ -23,10 +23,11 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html
 
-import FallenRobot.modules.sql.chatbot_sql as sql
-from FallenRobot import BOT_ID, BOT_NAME, BOT_USERNAME, dispatcher
-from FallenRobot.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
-from FallenRobot.modules.log_channel import gloggable
+import SiestaRobot.modules.sql.chatbot_sql as sql
+from SiestaRobot import BOT_ID, BOT_NAME, BOT_USERNAME, dispatcher
+from SiestaRobot.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
+from SiestaRobot.modules.log_channel import gloggable
+from SiestaRobot.modules.language import gs
 
 
 @run_async
@@ -140,13 +141,11 @@ def chatbot(update: Update, context: CallbackContext):
         message.reply_text(results["reply"])
 
 
-__help__ = f"""
-*{BOT_NAME} has an chatbot whic provides you a seemingless chatting experience :*
+def helps(chat): 
+    return gs(chat, "chatbot_help")
 
- »  /chatbot *:* Shows chatbot control panel
-"""
+__mod_name__ = "ᴄʜᴀᴛʙᴏᴛ"
 
-__mod_name__ = "Cʜᴀᴛʙᴏᴛ"
 
 
 CHATBOTK_HANDLER = CommandHandler("chatbot", fallen)
