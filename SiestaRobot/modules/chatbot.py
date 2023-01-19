@@ -24,7 +24,7 @@ from telegram.ext import (
 from telegram.utils.helpers import mention_html
 
 import SiestaRobot.modules.sql.chatbot_sql as sql
-from SiestaRobot import BOT_ID, BOT_NAME, BOT_USERNAME, dispatcher
+from SiestaRobot import BOT_ID, BOT_USERNAME, dispatcher
 from SiestaRobot.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
 from SiestaRobot.modules.log_channel import gloggable
 from SiestaRobot.modules.language import gs
@@ -134,7 +134,7 @@ def chatbot(update: Update, context: CallbackContext):
         if not fallen_message(context, message):
             return
         bot.send_chat_action(chat_id, action="typing")
-        url = f"https://kora-api.vercel.app/chatbot/2d94e37d-937f-4d28-9196-bd5552cac68b/{BOT_NAME}/Anonymous/message={message.text}"
+        url = f"https://kora-api.vercel.app/chatbot/2d94e37d-937f-4d28-9196-bd5552cac68b/{Niskala}/Anonymous/message={message.text}"
         request = requests.get(url)
         results = json.loads(request.text)
         sleep(0.5)
@@ -148,7 +148,7 @@ __mod_name__ = "ᴄʜᴀᴛʙᴏᴛ"
 
 
 
-CHATBOTK_HANDLER = CommandHandler("chatbot", fallen)
+CHATBOTK_HANDLER = CommandHandler("chatbot", niskala)
 ADD_CHAT_HANDLER = CallbackQueryHandler(fallenadd, pattern=r"add_chat")
 RM_CHAT_HANDLER = CallbackQueryHandler(fallenrm, pattern=r"rm_chat")
 CHATBOT_HANDLER = MessageHandler(
