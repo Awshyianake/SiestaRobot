@@ -33,16 +33,16 @@ from SiestaRobot.modules.language import gs
 @run_async
 @user_admin_no_reply
 @gloggable
-def fallenrm(update: Update, context: CallbackContext) -> str:
+def niskalarm(update: Update, context: CallbackContext) -> str:
     query: Optional[CallbackQuery] = update.callback_query
     user: Optional[User] = update.effective_user
     match = re.match(r"rm_chat\((.+?)\)", query.data)
     if match:
         user_id = match.group(1)
         chat: Optional[Chat] = update.effective_chat
-        is_fallen = sql.set_fallen(chat.id)
-        if is_fallen:
-            is_fallen = sql.set_fallen(user_id)
+        is_niskala = sql.set_niskala(chat.id)
+        if is_niskala:
+            is_niskala = sql.set_niskala(user_id)
             return (
                 f"<b>{html.escape(chat.title)}:</b>\n"
                 f"AI_DISABLED\n"
@@ -62,16 +62,16 @@ def fallenrm(update: Update, context: CallbackContext) -> str:
 @run_async
 @user_admin_no_reply
 @gloggable
-def fallenadd(update: Update, context: CallbackContext) -> str:
+def niskalaadd(update: Update, context: CallbackContext) -> str:
     query: Optional[CallbackQuery] = update.callback_query
     user: Optional[User] = update.effective_user
     match = re.match(r"add_chat\((.+?)\)", query.data)
     if match:
         user_id = match.group(1)
         chat: Optional[Chat] = update.effective_chat
-        is_fallen = sql.rem_fallen(chat.id)
-        if is_fallen:
-            is_fallen = sql.rem_fallen(user_id)
+        is_niskala = sql.rem_niskala(chat.id)
+        if is_niskala:
+            is_niskala = sql.rem_niskala(user_id)
             return (
                 f"<b>{html.escape(chat.title)}:</b>\n"
                 f"AI_ENABLE\n"
@@ -91,7 +91,7 @@ def fallenadd(update: Update, context: CallbackContext) -> str:
 @run_async
 @user_admin
 @gloggable
-def fallen(update: Update, context: CallbackContext):
+def niskala(update: Update, context: CallbackContext):
     message = update.effective_message
     msg = "• ᴄʜᴏᴏsᴇ ᴀɴ ᴏᴩᴛɪᴏɴ ᴛᴏ ᴇɴᴀʙʟᴇ/ᴅɪsᴀʙʟᴇ ᴄʜᴀᴛʙᴏᴛ"
     keyboard = InlineKeyboardMarkup(
@@ -109,7 +109,7 @@ def fallen(update: Update, context: CallbackContext):
     )
 
 
-def fallen_message(context: CallbackContext, message):
+def niskala_message(context: CallbackContext, message):
     reply_message = message.reply_to_message
     if message.text.lower() == "niskala":
         return True
@@ -126,12 +126,12 @@ def chatbot(update: Update, context: CallbackContext):
     message = update.effective_message
     chat_id = update.effective_chat.id
     bot = context.bot
-    is_fallen = sql.is_fallen(chat_id)
-    if is_fallen:
+    is_niskala = sql.is_niskala(chat_id)
+    if is_niskala:
         return
 
     if message.text and not message.document:
-        if not fallen_message(context, message):
+        if not niskala_message(context, message):
             return
         bot.send_chat_action(chat_id, action="typing")
         url = f"https://kora-api.vercel.app/chatbot/2d94e37d-937f-4d28-9196-bd5552cac68b/{niskala}/Anonymous/message={message.text}"
@@ -148,9 +148,9 @@ __mod_name__ = "ᴄʜᴀᴛʙᴏᴛ"
 
 
 
-CHATBOTK_HANDLER = CommandHandler("chatbot", fallen)
-ADD_CHAT_HANDLER = CallbackQueryHandler(fallenadd, pattern=r"add_chat")
-RM_CHAT_HANDLER = CallbackQueryHandler(fallenrm, pattern=r"rm_chat")
+CHATBOTK_HANDLER = CommandHandler("chatbot", niskala)
+ADD_CHAT_HANDLER = CallbackQueryHandler(niskalaadd, pattern=r"add_chat")
+RM_CHAT_HANDLER = CallbackQueryHandler(niskalarm, pattern=r"rm_chat")
 CHATBOT_HANDLER = MessageHandler(
     Filters.text
     & (~Filters.regex(r"^#[^\s]+") & ~Filters.regex(r"^!") & ~Filters.regex(r"^\/")),
