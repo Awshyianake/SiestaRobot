@@ -214,7 +214,7 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text=gs(chat.id, "add_bot_to_group_button"), url="t.me/NiskalaXRobot?startgroup=new"),
+                                text=gs(chat.id, "add_bot_to_group_button"), url="t.me/niskalaxbot?startgroup=new"),
                         
                         ]
                     ]
@@ -410,7 +410,7 @@ def siesta_about_callback(update, context):
                         ],
                         [
                             InlineKeyboardButton(
-                                text=gs(chat.id, "add_bot_to_group_button"), url="t.me/NiskalaXRobot?startgroup=new"),
+                                text=gs(chat.id, "add_bot_to_group_button"), url="t.me/niskalaxbot?startgroup=new"),
                         
                         ]
                     ]
@@ -800,7 +800,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                f"""**We Kontol**""",
+                f"""**Im Back My Lord**""",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
